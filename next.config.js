@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  output: 'export',
   env: {
     DB_URI: process.env.DB_URI,
     URL: process.env.URL,
