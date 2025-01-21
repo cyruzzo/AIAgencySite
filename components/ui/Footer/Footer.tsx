@@ -9,19 +9,15 @@ const navigation = [
   { name: "Demo", href: "/demo" },
   { name: "License", href: "/license" },
   { name: "Privacy Policy", href: "/privacy-policy" },
-  { name: "Blog", href: "/blog" },
+  { name: "App", href: "/app" },
 ];
 
 const marsNavigation = [
-  { name: "Marsx", href: "https://www.marsx.dev/" },
-  { name: "Unicorn Platform", href: "https://unicornplatform.com" },
-  { name: "UI generator", href: "https://uigenerator.org/" },
-  { name: "E-commerce store generator", href: "https://marketsy.ai/" },
-  { name: "Dev Hunt", href: "https://devhunt.org" },
+  { name: "Product Hunt", href: "https://www.producthunt.com/" },
 ];
 
 export default () => (
-  <footer className="relative mt-40 pt-24 overflow-hidden">
+  <footer className="relative mt-40 px-8 pt-24 overflow-hidden">
     <div>
       <BorderGradient className=" absolute inset-x-0 top-0 mx-auto" />
       <BgGradient className="absolute inset-x-0 top-0 mx-auto" />
@@ -29,8 +25,7 @@ export default () => (
         <div className="max-w-xs space-y-3">
           <Brand />
           <p className="text-sm text-zinc-300">
-            We are in a mission to make the proccess of building UI components
-            easier.
+            We are in a mission to make the world a better place by providing the best AI automation platform.
           </p>
           <div className="flex items-center gap-3">
             <a
@@ -69,7 +64,7 @@ export default () => (
             ))}
           </ul>
           <ul className="space-y-2">
-            <li className="text-zinc-100 font-medium">Mars Verse</li>
+            <li className="text-zinc-100 font-medium">Service Automate</li>
             {marsNavigation.map((item, idx) => (
               <li
                 key={idx}
@@ -85,7 +80,9 @@ export default () => (
       </div>
       <div className="text-sm custom-screen text-center border-t border-zinc-800">
         <div className="text-zinc-300 py-8">
-          &copy; 2023 Service Automate. All rights reserved.
+          &copy; {
+            new Date().getFullYear()
+          } Service Automate. All rights reserved.
         </div>
       </div>
     </div>

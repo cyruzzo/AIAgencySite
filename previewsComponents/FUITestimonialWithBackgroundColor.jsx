@@ -15,14 +15,14 @@ export default function FUITestimonialWithBackgroundColor() {
                     <figure>
                         <blockquote>
                             <p className="text-white text-xl font-semibold sm:text-2xl">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.“
+                                “Super easy to use and the support is amazing. I have been using it for a while now and it is the best I have found. I would recommend it to anyone.“
                             </p>
                         </blockquote>
                         <div className="mt-6">
                             <img src="https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg" className="w-16 h-16 mx-auto rounded-full" />
                             <div className="mt-3">
                                 <span className="block text-white font-semibold">Martin escobar</span>
-                                <span className="block text-blue-100 text-sm mt-0.5">Founder of meta</span>
+                                <span className="block text-blue-100 text-sm mt-0.5">Founder of Meta</span>
                             </div>
                         </div>
                     </figure>

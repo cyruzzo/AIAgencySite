@@ -11,18 +11,18 @@ type Feature = {
 export default () => {
   const features: Feature[] = [
     {
-      title: "Beautifully designed",
-      desc: "Service Automate allows you build beautiful and modern websites regardless of your design skills.",
+      title: "Beautifully integrated",
+      desc: "Service Automate allows you build agents based on needs and skills.",
       icon: <Icon123 />,
     },
     {
       title: "Fully Responsive",
-      desc: "Responsive designed components and templates that look great on any screen.",
+      desc: "Service Automate is fully responsive and works on all situations.",
       icon: <IconBrandOffice />,
     },
     {
       title: "Customizable",
-      desc: "copy and paste into your apps and experience the power of customizable components.",
+      desc: "Your agents will be fully customizable and can be tailored to your needs.",
       icon: <IconEdit />,
     },
   ];

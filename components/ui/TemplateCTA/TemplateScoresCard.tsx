@@ -11,7 +11,7 @@ export default () => {
   const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
-    if (isInView && progressCount < 95) {
+    if (isInView && progressCount < 87) {
       setTimeout(() => {
         setProgressCount((count) => count + 1);
       }, 50);
@@ -20,10 +20,9 @@ export default () => {
 
   return (
     <div className="flex-none border border-zinc-800 rounded-2xl p-8 bg-[linear-gradient(180deg,_rgba(15,_23,_42,_0.65)_0%,_rgba(24,_24,_27,_0.00)_100%)] w-full md:max-w-sm lg:max-w-md">
-      <h3 className="text-zinc-100 font-semibold">Good template scores</h3>
+      <h3 className="text-zinc-100 font-semibold">Accuracy scores</h3>
       <p className="text-zinc-300 mt-3 max-w-sm">
-        Our templates are made to be super fast, easy for everyone to use, and
-        show up well on search engines.
+        We provide you the best accuracy scores for your AI Agents, tailored to your needs
       </p>
       <div ref={ref} className="mt-8">
         <div className="relative w-52 h-52 mx-auto rounded-full bg-green-500 flex items-center justify-center">

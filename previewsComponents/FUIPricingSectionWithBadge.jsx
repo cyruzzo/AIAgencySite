@@ -11,62 +11,55 @@ export default function FUIPricingSectionWithBadge() {
     const plans = [
         {
             name: "Basic plan",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            desc: "Ideal for small teams and individual projects.",
             price: 12,
             isMostPop: false,
             features: [
-                "Curabitur faucibus",
-                "massa ut pretium maximus",
-                "Sed posuere nisi",
-                "Pellentesque eu nibh et neque",
-                "Suspendisse a leo",
-                "Praesent quis venenatis ipsum",
-                "Duis non diam vel tortor",
-
+                "AI agent customization",
+                "Basic email integration",
+                "O365 integration",
+                "Telegram integration",
             ],
         },
         {
             name: "Startup",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            desc: "Perfect for growing startups and medium-sized teams.",
             price: 35,
             isMostPop: true,
             features: [
-                "Curabitur faucibus",
-                "massa ut pretium maximus",
-                "Sed posuere nisi",
-                "Pellentesque eu nibh et neque",
-                "Suspendisse a leo",
-                "Praesent quis venenatis ipsum",
-                "Duis non diam vel tortor",
+                "AI agent customization",
+                "Advanced email integration",
+                "O365 integration",
+                "File operations",
+                "SuiteCRM integration",
             ],
         },
         {
             name: "Enterprise",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            desc: "Best for large organizations and enterprises.",
             price: 60,
             isMostPop: false,
             features: [
-                "Curabitur faucibus",
-                "massa ut pretium maximus",
-                "Sed posuere nisi",
-                "Pellentesque eu nibh et neque",
-                "Suspendisse a leo",
-                "Praesent quis venenatis ipsum",
-                "Duis non diam vel tortor",
+                "AI agent customization",
+                "Full email integration",
+                "O365 integration",
+                "File operations",
+                "Telegram integration",
+                "SuiteCRM integration",
             ],
         },
     ];
 
     return (
         <section className='py-14'>
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+            <div className="max-w-screen-xl mx-auto px-4 text-zinc-100 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
-                    <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
+                    <h3 className='text-zinc-400 text-3xl font-semibold sm:text-4xl'>
                         Pricing for all sizes
                     </h3>
                     <div className='mt-3 max-w-xl'>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
+                            You can choose the plan that best suits your needs. If you need a custom plan, please contact us.
                         </p>
                     </div>
                 </div>
@@ -83,8 +76,8 @@ export default function FUIPricingSectionWithBadge() {
                                     <span className='text-indigo-600 font-medium'>
                                         {item.name}
                                     </span>
-                                    <div className='text-gray-800 text-3xl font-semibold'>
-                                        ${item.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
+                                    <div className='text-zinc-400 text-3xl font-semibold'>
+                                        € {item.price} <span className="text-xl text-zinc-100 font-normal">/mo</span>
                                     </div>
                                     <p>
                                         {item.desc}
@@ -94,7 +87,7 @@ export default function FUIPricingSectionWithBadge() {
                                     </button>
                                 </div>
                                 <ul className='p-8 space-y-3'>
-                                    <li className="pb-2 text-gray-800 font-medium">
+                                    <li className="pb-2 text-zinc-400 font-medium">
                                         <p>Features</p>
                                     </li>
                                     {

@@ -10,63 +10,40 @@ export default function FUITeamWithLargeAvatars() {
 
     const team = [
         {
-            avatar: "https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-            name: "Martiana dialan",
-            title: "Product designer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
+            avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFVAVtNw80TXQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696179381792?e=2147483647&v=beta&t=zzrz9Ifh7IIRZ1udh0V4jE_EewTw4umU13SDX2A21I0",
+            name: "Daniele Martini",
+            title: "CEO",
+            desc: "The head behind the agents of change",
+            linkedin: "https://www.linkedin.com/in/danielemartini",
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Micheal colorand",
-            title: "Software engineer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
+            avatar: "https://media.licdn.com/dms/image/v2/D4D03AQGlGozFupzWjg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730454590818?e=2147483647&v=beta&t=WOuPIdsXp5_GmPHPWSEYg3pMNdoJ8wjWnrw2eCJP1J8",
+            name: "Gianni Bellorio",
+            title: "Head of Marketing",
+            desc: "The voice of the company",
+            linkedin: "https://www.linkedin.com/in/giannibellorio",
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Brown Luis",
-            title: "Full stack engineer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
+            avatar: "https://pbs.twimg.com/profile_images/1297200159437344768/Soyc7cpr_400x400.jpg",
+            name: "Vincenzo Manto",
+            title: "CTO",
+            desc: "The head behind the technology innovation",
+            linkedin: "https://www.linkedin.com/in/vincenzomanto",
             twitter: "javascript:void(0)",
         },
-        {
-            avatar: "https://randomuser.me/api/portraits/women/63.jpg",
-            name: "Lysa sandiago",
-            title: "Head of designers",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
-        },
-        {
-            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-            name: "Daniel martin",
-            title: "Product designer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
-        },
-        {
-            avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-            name: "Vicky tanson",
-            title: "Product manager",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
-        },
+
     ]
 
     return (
         <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-center md:px-8">
                 <div className="max-w-xl mx-auto">
-                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                    <h3 className="text-zinc-400 text-3xl font-semibold sm:text-4xl">
                         Meet our team
                     </h3>
-                    <p className="text-gray-600 mt-3">
+                    <p className="text-zinc-100 mt-3">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
                     </p>
                 </div>
@@ -83,9 +60,9 @@ export default function FUITeamWithLargeAvatars() {
                                         />
                                     </div>
                                     <div className="mt-2">
-                                        <h4 className="text-gray-700 font-semibold sm:text-lg">{item.name}</h4>
+                                        <h4 className="text-zinc-100 font-semibold sm:text-lg">{item.name}</h4>
                                         <p className="text-indigo-600">{item.title}</p>
-                                        <p className="text-gray-600 mt-2">{item.desc}</p>
+                                        <p className="text-zinc-400 mt-2">{item.desc}</p>
                                         <div className="mt-4 flex justify-center gap-4 text-gray-400">
                                             <a href={item.twitter}>
                                                 <svg className="w-5 h-5 duration-150 hover:text-gray-500" fill="currentColor" viewBox="0 0 48 48"><g clip-path="url(#clip0_17_80)"><path fill="currentColor" d="M15.1 43.5c18.11 0 28.017-15.006 28.017-28.016 0-.422-.01-.853-.029-1.275A19.998 19.998 0 0048 9.11c-1.795.798-3.7 1.32-5.652 1.546a9.9 9.9 0 004.33-5.445 19.794 19.794 0 01-6.251 2.39 9.86 9.86 0 00-16.788 8.979A27.97 27.97 0 013.346 6.299 9.859 9.859 0 006.393 19.44a9.86 9.86 0 01-4.462-1.228v.122a9.844 9.844 0 007.901 9.656 9.788 9.788 0 01-4.442.169 9.867 9.867 0 009.195 6.843A19.75 19.75 0 010 39.078 27.937 27.937 0 0015.1 43.5z" /></g><defs><clipPath id="clip0_17_80"><path fill="currentColor" d="M0 0h48v48H0z" /></clipPath></defs></svg>

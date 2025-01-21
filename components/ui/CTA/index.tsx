@@ -1,3 +1,4 @@
+import { IconBrandTelegram } from "@tabler/icons-react";
 import LinkItem from "../LinkItem";
 
 export default () => (
@@ -7,8 +8,7 @@ export default () => (
         Make your ideas come to life with no time
       </h2>
       <p className="text-zinc-400 max-w-xl mx-auto">
-        Copy and paste our ready to use components into your apps, and save
-        time, or use it in MarsX.
+        Empowering developers with intelligent AI agents to build the future.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <LinkItem
@@ -23,7 +23,8 @@ export default () => (
           target="_blank"
           className="inline-block w-full sm:w-auto"
         >
-          Use in MarsX
+          <IconBrandTelegram className="inline mr-2" />
+          Use in Telegram
         </LinkItem>
       </div>
     </div>

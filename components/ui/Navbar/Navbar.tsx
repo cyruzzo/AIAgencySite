@@ -14,12 +14,11 @@ export default () => {
 
   // Replace javascript:void(0) paths with your paths
   const navigation = [
-    { title: "Components", path: "/components" },
-    { title: "Templates", path: "/templates" },
+    { title: "About it", path: "/docs" },
     { title: "Demo", path: "/demo" },
     {
-      title: "Github",
-      path: "https://github.com/MarsX-dev/serviceautomate",
+      title: "Pricing",
+      path: "#pricing",
       props: { target: "_blank" },
     },
   ];
