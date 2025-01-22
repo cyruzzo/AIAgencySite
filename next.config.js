@@ -2,6 +2,7 @@
 
 const nextConfig = {
   output: 'export',
+  basePath: '/AIAgencySite',
   env: {
     DB_URI: process.env.DB_URI,
     URL: process.env.URL,
