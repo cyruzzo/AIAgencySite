@@ -13,6 +13,7 @@ export default function FUIPricingSectionWithBadge() {
             name: "Basic plan",
             desc: "Ideal for small teams and individual projects.",
             price: 12,
+            blurred: true,
             isMostPop: false,
             features: [
                 "AI agent customization",
@@ -22,9 +23,10 @@ export default function FUIPricingSectionWithBadge() {
             ],
         },
         {
-            name: "Startup",
+            name: "Standard",
             desc: "Perfect for growing startups and medium-sized teams.",
-            price: 35,
+            price: 89,
+            clearPrice: 199,
             isMostPop: true,
             features: [
                 "AI agent customization",
@@ -38,6 +40,7 @@ export default function FUIPricingSectionWithBadge() {
             name: "Enterprise",
             desc: "Best for large organizations and enterprises.",
             price: 60,
+            blurred: true,
             isMostPop: false,
             features: [
                 "AI agent customization",
@@ -66,7 +69,7 @@ export default function FUIPricingSectionWithBadge() {
                 <div className='mt-16 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3'>
                     {
                         plans.map((item, idx) => (
-                            <div key={idx} className={`relative flex-1 flex items-stretch flex-col rounded-xl border-2 mt-6 sm:mt-0 ${item.isMostPop ? "mt-10" : ""}`}>
+                            <div key={idx} className={`relative flex-1 flex items-stretch flex-col rounded-xl border-2 mt-6 sm:mt-0 ${item.isMostPop ? "mt-10" : ""} ${item.blurred ? "filter blur-md" : ""}`}>
                                 {
                                     item.isMostPop ? (
                                         <span class="w-32 absolute -top-5 left-0 right-0 mx-auto px-3 py-2 rounded-full border shadow-md bg-white text-center text-gray-700 text-sm font-semibold">Most popular</span>
@@ -76,8 +79,12 @@ export default function FUIPricingSectionWithBadge() {
                                     <span className='text-indigo-600 font-medium'>
                                         {item.name}
                                     </span>
+
                                     <div className='text-zinc-400 text-3xl font-semibold'>
                                         € {item.price} <span className="text-xl text-zinc-100 font-normal">/mo</span>
+                                    { item.clearPrice && (<div className='text-zinc-400 text-xl font-semibold line-through float-right transform rotate-45'>
+                                        € {item.clearPrice}
+                                    </div>)}
                                     </div>
                                     <p>
                                         {item.desc}
@@ -112,6 +119,8 @@ export default function FUIPricingSectionWithBadge() {
                         ))
                     }
                 </div>
+      <p className="text-center m-5 p-5">"Limited Early Access" pricing available for early adopters. Contact us for enterprise solutions and custom integrations.</p>
+
             </div>
         </section>
     );

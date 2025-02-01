@@ -1,4 +1,4 @@
-import { IconBrandTelegram } from "@tabler/icons-react";
+import { IconBrandTelegram, IconMail } from "@tabler/icons-react";
 import LinkItem from "../LinkItem";
 
 export default () => (
@@ -8,23 +8,23 @@ export default () => (
         Make your ideas come to life with no time
       </h2>
       <p className="text-zinc-400 max-w-xl mx-auto">
-        Empowering developers with intelligent AI agents to build the future.
+        Let's start together and make your ideas come to life with our AI-powered automation platform. Automate your flows and processes with ease.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <LinkItem
-          href="/components"
+          href="/"
           variant="shiny"
           className="inline-block w-full hover:bg-zinc-700 sm:w-auto"
         >
           Get started
         </LinkItem>
         <LinkItem
-          href="https://marsx.dev/?ref=serviceautomate"
+          href="mailto:info@serviceautomate.com"
           target="_blank"
           className="inline-block w-full sm:w-auto"
         >
-          <IconBrandTelegram className="inline mr-2" />
-          Use in Telegram
+          <IconMail className="inline mr-2" />
+          Contact us
         </LinkItem>
       </div>
     </div>

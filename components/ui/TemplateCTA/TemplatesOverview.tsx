@@ -5,15 +5,15 @@ import preview1 from "public/preview-1.svg";
 import preview2 from "public/preview-2.svg";
 import preview3 from "public/preview-3.svg";
 
-export default () => {
+export default ({title, description}) => {
   return (
     <div className="flex-1 relative overflow-hidden border border-zinc-800 rounded-2xl p-8 bg-[linear-gradient(180deg,_rgba(15,_23,_42,_0.65)_0%,_rgba(24,_24,_27,_0.00)_100%)]">
-      <h3 className="text-zinc-100 font-semibold">Ready to use wizards</h3>
-      <p className="text-zinc-300 max-w-md mt-3">
-        We provide you with a set of ready to use wizards that you can use to
-        build your own AI Agents
+      <h3 className="text-zinc-100 font-semibold text-3xl">{title}</h3>
+      <p className="text-zinc-300 max-w-md mt-3 mb-5">
+        {description}
+        
       </p>
-      <div className="flex mt-8 group h-52 sm:h-64 md:h-auto">
+      <div className="flex mt-8 group h-52 sm:h-64 md:h-26">
         <Image
           src={preview3}
           className="flex-1 absolute group-hover:right-60 right-24 -bottom-6 duration-500"
