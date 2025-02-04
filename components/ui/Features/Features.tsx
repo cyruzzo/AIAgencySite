@@ -30,7 +30,7 @@ export default () => {
   return (
     <section className="custom-screen mt-32">
       <div className="max-w-xl mx-auto space-y-4 text-center">
-        <h2 className="text-4xl heading">🔥 Fire your employees with AI</h2>
+        <h2 className="text-4xl heading">🔥 AI working alongside your employees</h2>
         <p className="text-zinc-400">
           Service Automate is a platform that allows you to build AI agents that can automate your workflows and processes.
         </p>
