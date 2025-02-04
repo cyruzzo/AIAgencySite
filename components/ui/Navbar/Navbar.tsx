@@ -14,8 +14,7 @@ export default () => {
 
   // Replace javascript:void(0) paths with your paths
   const navigation = [
-    { title: "About it", path: "/docs" },
-    { title: "Demo", path: "/demo" },
+    { title: "About", path: "/" },
     {
       title: "Pricing",
       path: "#pricing",
@@ -99,7 +98,7 @@ export default () => {
               <div className="mt-6 md:mt-0">
                 <LinkItem
                   variant="shiny"
-                  href="/components"
+href='https://app.serviceautomate.com'
                   className="w-full block bg-zinc-800 hover:bg-zinc-700 md:bg-shiny"
                 >
                   Get started

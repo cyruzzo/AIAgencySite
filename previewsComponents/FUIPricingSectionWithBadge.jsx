@@ -49,7 +49,10 @@ export default function FUIPricingSectionWithBadge() {
                   {item.clearPrice && <div className="text-indigo-400 text-xl font-semibold line-through float-right transform rotate-45">€ {item.clearPrice}</div>}
                 </div>
                 <p>{item.desc}</p>
-                <button className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700">Start 30-day trial</button>
+                <br/>
+                <a className="px-3 py-3 block text-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700"
+                href='https://app.serviceautomate.com'
+                >Start 30-day trial</a>
               </div>
               <ul className="p-8 space-y-3">
                 <li className="pb-2 text-zinc-400 font-medium">
@@ -69,7 +72,7 @@ export default function FUIPricingSectionWithBadge() {
         </div>
         <p className="text-center text-zinc-400 m-5 p-5">"Limited Early Access" pricing available for early adopters. Contact us for enterprise solutions and custom integrations.</p>
         <h4 className="text-center  my-5">If you are fearful...</h4>
-        <button className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700">Try with Free plan</button>
+        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 block text-center" href='https://app.serviceautomate.com'>Try with Free plan</a>
       </div>
     </section>
   );

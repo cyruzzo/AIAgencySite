@@ -64,6 +64,7 @@ export default async () => {
 
   return (
     <>
+    
       <Hero />
       <iframe className="w-1/2 m-auto rounded-3xl mt-7" src="https://www.youtube.com/embed/ub8LcS1pdUc" style={{height: '50vh'}}></iframe>
       <Features />
