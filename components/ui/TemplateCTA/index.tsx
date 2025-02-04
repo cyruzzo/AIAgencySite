@@ -22,7 +22,7 @@ export default () => {
             {elements.map((e, index) => (
             <div key={index} className={`md:flex gap-x-6 mt-10 space-y-6 md:space-y-0 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
               <TemplatesOverview title={e.title} description={e.description} />
-              <TemplateScoresCard />
+              {/* <TemplateScoresCard /> */}
             </div>
             ))}
           ))}

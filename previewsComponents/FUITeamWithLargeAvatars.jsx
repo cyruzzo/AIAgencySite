@@ -44,7 +44,7 @@ export default function FUITeamWithLargeAvatars() {
                         Meet our team
                     </h3>
                     <p className="text-zinc-100 mt-3">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
+                        We are a team of passionate individuals who love what we do. We are always looking for new talents to join our team.
                     </p>
                 </div>
                 <div className="mt-12">

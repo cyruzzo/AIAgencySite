@@ -19,7 +19,7 @@ export default () => (
           Get started
         </LinkItem>
         <LinkItem
-          href="mailto:info@serviceautomate.com"
+          href="mailto:info@altama.it"
           target="_blank"
           className="inline-block w-full sm:w-auto"
         >
