@@ -25,7 +25,6 @@ export default () => {
               {/* <TemplateScoresCard /> */}
             </div>
             ))}
-          ))}
         </div>
       </div>
     </section>
