@@ -2,8 +2,6 @@ name: Deploy Next.js to AWS S3 PROD
 
 on:
   push:
-    branches:
-      - main
     tags:
       - prod*
 jobs:
@@ -26,7 +24,7 @@ jobs:
         run: npx pnpm install
 
       - name: Build Next.js project
-        run: npx pnpm run build
+        run: npm run build
 
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v1
