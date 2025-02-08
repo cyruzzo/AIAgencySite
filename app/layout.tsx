@@ -48,7 +48,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@float_ui" />
         <meta name="twitter:creator" content="@float_ui" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.svg" />
         <meta
           name="google-site-verification"
           content={GOOGLE_SITE_VERIFICATION}

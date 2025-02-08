@@ -72,7 +72,10 @@ export default async () => {
       </Script>
 
       <Hero />
-      <iframe className="w-1/2 m-auto rounded-3xl mt-7" src="https://www.youtube.com/embed/ub8LcS1pdUc" style={{ height: '50vh' }}></iframe>
+      <video className="w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
+        <source src="/demo.mp4" type="video/mp4" />
+      </video>
+      {/* <iframe className="w-1/2 m-auto rounded-3xl mt-7" src="https://www.youtube.com/embed/ub8LcS1pdUc" style={{ height: '50vh' }}></iframe> */}
       <Features />
       <div className="max-w-xl mx-auto space-y-4 text-center mt-10">
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
