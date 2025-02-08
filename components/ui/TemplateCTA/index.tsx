@@ -15,7 +15,7 @@ export default () => {
       <div className="custom-screen relative z-10">
         <div className="max-w-xl mx-auto space-y-4 text-center">
           <h2 className="text-4xl heading">Our best use cases</h2>
-          <p className="text-zinc-400">Service Automate offers all the vital building AI Agents you need to transform your processes into a streamless flow.</p>
+          <p className="text-zinc-400">NineSeek offers all the vital building AI Agents you need to transform your processes into a streamless flow.</p>
         </div>
 
         <div className="gap-y-6 mt-10 space-y-6 md:flex md:space-y-0 flex-col">

@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import MDXRemoteClient from "components/MDXRemoteClient";
 
-const title = "Service Automate - License";
+const title = "NineSeek - License";
 
 export const metadata = {
   metadataBase: new URL("https://serviceautomate.com"),
@@ -34,7 +34,7 @@ export default async () => {
             License
           </h1>
           <p className="text-zinc-400 mt-3">
-            All you need to know about the Service Automate licensing model
+            All you need to know about the NineSeek licensing model
           </p>
         </div>
         <article className="prose prose-invert mt-12 mx-4 sm:mx-auto">

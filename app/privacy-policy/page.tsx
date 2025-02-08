@@ -1,4 +1,4 @@
-const title = "Service Automate - Privacy Policy";
+const title = "NineSeek - Privacy Policy";
 
 export const metadata = {
   metadataBase: new URL("https://serviceautomate.com"),

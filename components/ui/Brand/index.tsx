@@ -4,7 +4,7 @@ import logoDark from "public/logo-dark.svg";
 export default () => (
   <>
     <div>
-      <Image src={logoDark} alt="Service Automate logo" />
+      <Image src={logoDark} alt="NineSeek logo" />
     </div>
   </>
 );

@@ -47,7 +47,7 @@ export default function FUIFooterWithDescriptionAndTitle() {
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
-                    <p>© 2022 Service Automate Inc. All rights reserved.</p>
+                    <p>© 2022 NineSeek Inc. All rights reserved.</p>
                     <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
                         {
                             footerNavs.map((item, idx) => (

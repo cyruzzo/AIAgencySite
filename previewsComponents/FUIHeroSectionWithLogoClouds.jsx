@@ -27,7 +27,7 @@ export default function FUIHeroSectionWithLogoClouds() {
                             src="https://www.serviceautomate.com/logo.svg"
                             width={120}
                             height={50}
-                            alt="Service Automate logo"
+                            alt="NineSeek logo"
                         />
                     </a>
                     <button className="text-gray-500 outline-none md:hidden"

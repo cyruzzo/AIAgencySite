@@ -86,7 +86,7 @@ const AvatarMenue = () => {
                             src="https://www.serviceautomate.com/logo.svg"
                             width={120}
                             height={50}
-                            alt="Service Automate logo"
+                            alt="NineSeek logo"
                         />
                     </a>
                     <div className="lg:hidden">

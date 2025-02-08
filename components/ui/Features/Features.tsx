@@ -12,12 +12,12 @@ export default () => {
   const features: Feature[] = [
     {
       title: 'Beautifully integrated',
-      desc: 'Service Automate allows you build agents based on needs and skills.',
+      desc: 'NineSeek allows you build agents based on needs and skills.',
       icon: <Icon123 />,
     },
     {
       title: 'Fully Responsive',
-      desc: 'Service Automate is fully responsive and works on all situations.',
+      desc: 'NineSeek is fully responsive and works on all situations.',
       icon: <IconBrandOffice />,
     },
     {
@@ -32,7 +32,7 @@ export default () => {
       <div className="max-w-xl mx-auto space-y-4 text-center">
         <h2 className="text-4xl heading">🔥 AI working alongside your employees</h2>
         <p className="text-zinc-400">
-          Service Automate is a platform that allows you to build AI agents that can automate your workflows and processes.
+          NineSeek is a platform that allows you to build AI agents that can automate your workflows and processes.
         </p>
       </div>
       <ul className="space-y-6 gap-6 mt-8 max-w-7xl mx-auto grid-cols-2 sm:grid lg:grid-cols-3 sm:space-y-0">

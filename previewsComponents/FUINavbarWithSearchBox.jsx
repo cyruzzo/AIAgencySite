@@ -76,7 +76,7 @@ const ProfileDropDown = (props) => {
                             src="/logo.svg" 
                             width={120} 
                             height={50}
-                            alt="Service Automate logo"
+                            alt="NineSeek logo"
                         />
                     </a>
                 </div>
