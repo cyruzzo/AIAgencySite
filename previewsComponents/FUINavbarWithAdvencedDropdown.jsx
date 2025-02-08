@@ -108,7 +108,7 @@ export default function FUINavbarWithAdvencedDropdown() {
                         <a href="javascript:void(0)">
                             <img
                                 src="https://www.serviceautomate.com/logo.svg"
-                                width={120}
+                                width={50}
                                 height={50}
                                 alt="NineSeek logo"
                             />

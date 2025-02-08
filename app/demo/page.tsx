@@ -6,7 +6,7 @@ import PreviewApp from "components/ui/Preview/PreviewApp";
 import HeroBgGradient from "components/HeroBgGradient";
 import { serialize } from "next-mdx-remote/serialize";
 
-const title = "NineSeek - NineSeek components demo";
+const title = "NineSeek - AI Agents to empower your business";
 
 export const metadata = {
   metadataBase: new URL("https://serviceautomate.com"),

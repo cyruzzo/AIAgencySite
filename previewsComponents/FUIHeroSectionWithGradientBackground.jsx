@@ -31,7 +31,7 @@ export default function FUIHeroSectionWithGradientBackground() {
             <a href="javascript:void(0)">
                 <img
                     src="https://www.serviceautomate.com/logo-dark.svg"
-                    width={120}
+                    width={50}
                     height={50}
                     alt="NineSeek logo"
                 />

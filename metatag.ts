@@ -1,5 +1,5 @@
 export default {
-  title: "NineSeek - Free open source Tailwind UI components & Templates",
-  desc: "Beautiful and responsive website templates and UI components for React, Vue, Svelte, HTML with Tailwind CSS.",
+  title: "NineSeek - AI Agents to empower your business",
+  desc: "AI working alongside your employees. NineSeek is a platform that allows you to build AI agents that can automate your workflows and processes.",
   ogImage: "/thumbnail.png?v2",
 };
