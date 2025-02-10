@@ -1,6 +1,7 @@
 name: Deploy Next.js to AWS S3 PROD
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - prod*
