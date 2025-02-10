@@ -15,8 +15,7 @@ export default ({ title, description }: TemplateProps) => {
     <div className="flex-1 relative overflow-hidden border border-zinc-800 rounded-2xl p-8 bg-[linear-gradient(180deg,_rgba(15,_23,_42,_0.65)_0%,_rgba(24,_24,_27,_0.00)_100%)]">
       <h3 className="text-zinc-100 font-semibold text-3xl">{title}</h3>
       <p className="text-zinc-300 max-w-md mt-3 mb-5">
-        {description}
-        
+        {description}        
       </p>
       <div className="flex mt-8 group h-52 sm:h-64 md:h-26">
         <Image
