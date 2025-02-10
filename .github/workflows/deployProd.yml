@@ -16,16 +16,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: npm install -g pnpm@8.14.1
 
       - name: Install dependencies
-        run: npx pnpm install
+        run: npx pnpm@8.14.1 install
 
       - name: Build Next.js project
-        run: npx pnpm run build
+        run: npx pnpm@8.14.1 run build
 
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v1
