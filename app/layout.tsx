@@ -4,7 +4,6 @@ import "./customize.css";
 import "./prismjs-theme.css";
 import Navbar from "components/ui/Navbar";
 import Footer from "components/ui/Footer";
-import UsermavenSetup from "components/UsermavenSetup";
 import metatag from "metatag";
 
 const { title, desc, ogImage } = metatag;
@@ -56,7 +55,6 @@ export default function RootLayout({
         <meta name="msvalidate.01" content="D00EDAC78FB47DDD869F2C18FD8A6572" />
         <meta name="robots" content="index, follow" />
       </head>
-      <UsermavenSetup />
       <body className={inter.className}>
         <Navbar />
         <main>{children}</main>
