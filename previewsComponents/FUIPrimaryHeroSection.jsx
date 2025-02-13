@@ -28,7 +28,7 @@ export default function FUIPrimaryHeroSection() {
                                 src="/logo.svg" 
                                 width={50} 
                                 height={50}
-                                alt="NineSeek logo"
+                                alt="Linegon logo"
                             />
                         </a>
                         <button className="text-gray-500 outline-none md:hidden"

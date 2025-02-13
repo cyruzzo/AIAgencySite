@@ -10,15 +10,17 @@ export default () => {
           <b className="bg-indigo-500 heading">AI Agents </b>
           to Empower Your Business
         </h1>
-        <p className="text-zinc-400 py-7 my-7">Be more productive with our AI-powered automation platform. Automate your flows and processes with ease. Integrations across CRMs, Email, Calendar, File Sharing Platforms, and More.</p>
+        <p className="text-zinc-400 py-7 my-7">
+          Follow the line of AI agents that will help you automate your workflow
+        </p>
         <div className="flex flex-wrap items-center justify-center gap-3">
-          <LinkItem href="https://app.serviceautomate.com" variant="shiny" className="inline-block w-full hover:bg-zinc-700 sm:w-auto">
-          Start 30-day trial
+          <LinkItem href="https://terabrains.io" variant="shiny" className="inline-block w-full hover:bg-zinc-700 sm:w-auto">
+          Discover our products
           </LinkItem>
-          <LinkItem href="https://github.com/MarsX-dev/serviceautomate" variant="shiny" className="inline-flex w-full justify-center items-center gap-x-2 border border-zinc-800 hover:border-zinc-600 bg-zinc-950 hover:text-zinc-100 duration-200 sm:w-auto" target="_blank">
+{/*           <LinkItem href="https://github.com/MarsX-dev/serviceautomate" variant="shiny" className="inline-flex w-full justify-center items-center gap-x-2 border border-zinc-800 hover:border-zinc-600 bg-zinc-950 hover:text-zinc-100 duration-200 sm:w-auto" target="_blank">
             <IconBrandProducthunt className="w-5 h-5" />
-            Star on ProductHunt
-          </LinkItem>
+            Star us on ProductHunt
+          </LinkItem> */}
         </div>
       </div>
       <HeroBgGradientClient />

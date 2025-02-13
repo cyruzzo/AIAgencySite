@@ -6,10 +6,10 @@ import BgGradient from "./BgGradient";
 import { IconBrandProducthunt } from "@tabler/icons-react";
 
 const navigation = [
-  { name: "Demo", href: "/demo" },
-  { name: "License", href: "/license" },
+  { name: "Terabrains", href: "https://terabrains.io" },
+/*   { name: "License", href: "/license" },
   { name: "Privacy Policy", href: "/privacy-policy" },
-  { name: "App", href: "/app" },
+  { name: "App", href: "/app" }, */
 ];
 
 const marsNavigation = [
@@ -64,7 +64,7 @@ export default () => (
             ))}
           </ul>
           <ul className="space-y-2">
-            <li className="text-zinc-100 font-medium">NineSeek</li>
+            <li className="text-zinc-100 font-medium">Linegon</li>
             {marsNavigation.map((item, idx) => (
               <li
                 key={idx}
@@ -82,7 +82,7 @@ export default () => (
         <div className="text-zinc-300 py-8">
           &copy; {
             new Date().getFullYear()
-          } NineSeek. All rights reserved.
+          } Linegon. All rights reserved.
         </div>
       </div>
     </div>

@@ -14,12 +14,8 @@ export default () => {
 
   // Replace javascript:void(0) paths with your paths
   const navigation = [
-    { title: "About", path: "/" },
-    {
-      title: "Pricing",
-      path: "#pricing",
-      props: { target: "_blank" },
-    },
+    { title: "Products", path: "#products" },
+    { title: "Terabrains", path: "https://terabrains.io" },
   ];
 
   useEffect(() => {
@@ -35,7 +31,7 @@ export default () => {
         className="w-full font-medium text-sm text-zinc-400 hover:text-zinc-200 flex items-center gap-2 duration-200 group"
         onClick={() => setNewsletterModalActive(true)}
       >
-        Editor with AI
+        Access the preview
         <SparklesIcon className="w-4 h-4 opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-125 duration-150" />
       </button>
     );
@@ -91,11 +87,11 @@ export default () => {
                     </li>
                   );
                 })}
-                <li>
+                {/* <li>
                   <EditorWithAiButton />
-                </li>
+                </li> */}
               </ul>
-              <div className="mt-6 md:mt-0">
+              <div className="mt-6 md:mt-0 opacity-0">
                 <LinkItem
                   variant="shiny"
 href='https://app.serviceautomate.com'

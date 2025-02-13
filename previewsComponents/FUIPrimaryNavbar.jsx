@@ -27,7 +27,7 @@ export default function FUIPrimaryNavbar() {
                             src="/logo.svg" 
                             width={50} 
                             height={50}
-                            alt="NineSeek logo"
+                            alt="Linegon logo"
                         />
                     </a>
                   <div className="md:hidden">

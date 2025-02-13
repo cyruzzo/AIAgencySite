@@ -1,3 +1,4 @@
+import LinkItem from '../LinkItem';
 import BgGradient from './BgGradient';
 import TemplateScoresCard from './TemplateScoresCard';
 import TemplatesOverview from './TemplatesOverview';
@@ -13,18 +14,26 @@ export default () => {
     <section className="mt-32 border-t border-zinc-800 pt-24 relative">
       <BgGradient className="absolute inset-x-0 mx-auto duration-500 top-0" />
       <div className="custom-screen relative z-10">
-        <div className="max-w-xl mx-auto space-y-4 text-center">
-          <h2 className="text-4xl heading">Our best use cases</h2>
-          <p className="text-zinc-400">NineSeek offers all the vital building AI Agents you need to transform your processes into a streamless flow.</p>
+        <div className="max-w-xl mx-auto space-y-4 text-center mt-10">
+          <h2 className="text-4xl heading">
+            Discover our best product: <b className="bg-indigo-500 heading">Terabrains ™ </b>
+          </h2>
+          <p className="text-zinc-400">Terabrains is a platform that enables you to create AI agents that can automate your workflow. Terabrains can be used to automate tasks, create workflows, and integrate with your favorite tools.</p>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-center gap-3 mt-5">
+          <LinkItem href="https://terabrains.io" className="inline-block w-full sm:w-auto">
+            Discover Terabrains ™
+          </LinkItem>
         </div>
 
         <div className="gap-y-6 mt-10 space-y-6 md:flex md:space-y-0 flex-col">
-            {elements.map((e, index) => (
+          {elements.map((e, index) => (
             <div key={index} className={`md:flex gap-x-6 mt-10 space-y-6 md:space-y-0 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
               <TemplatesOverview title={e.title} description={e.description} />
               {/* <TemplateScoresCard /> */}
             </div>
-            ))}
+          ))}
         </div>
       </div>
     </section>

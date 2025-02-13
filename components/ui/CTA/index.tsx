@@ -12,19 +12,10 @@ export default () => (
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <LinkItem
-href='https://app.serviceautomate.com'
-          variant="shiny"
-          className="inline-block w-full hover:bg-zinc-700 sm:w-auto"
-        >
-          Get started
-        </LinkItem>
-        <LinkItem
-          href="mailto:info@altama.it"
-          target="_blank"
+href='https://terabrains.io'
           className="inline-block w-full sm:w-auto"
         >
-          <IconMail className="inline mr-2" />
-          Contact us
+          Discover Terabrains
         </LinkItem>
       </div>
     </div>
