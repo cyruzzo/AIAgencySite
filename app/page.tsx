@@ -75,24 +75,19 @@ export default async () => {
       <video className="w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
         <source src="/demo.mp4" type="video/mp4" />
       </video>
-      {/* <iframe className="w-1/2 m-auto rounded-3xl mt-7" src="https://www.youtube.com/embed/ub8LcS1pdUc" style={{ height: '50vh' }}></iframe> */}
       <Features />
       <div className="max-w-xl mx-auto space-y-4 text-center mt-10">
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
         <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
       </div>
-      {/*       <FUILogoGridWithTowRows />
-      <FUIStatsOnTheSide /> */}
 
       <FUIIntegrationsCard integrations={crmIntegrations} title="Agents that work with your systems" desc="Connect your CRM to your workflow. Get the best of CRM integrated with your workflow." />
       <FUIIntegrationsCard integrations={integrations} title="Agents that can communicate" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
       <FUIIntegrationsCard integrations={appIntegrations} title="Connect seamlessly to your systems" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
 
-      {/*       <TemplateCTA />
-      <SupportedFrameworks />
-      <FUIStepsWithTitlesOnTheBottom data={['Create a new account', 'Pick a wizard', 'Teach him something', 'Ask him to do the job']} /> */}
-
-      <FUIPricingSectionWithBadge />
+      <div id="pricing">
+        <FUIPricingSectionWithBadge />
+      </div>
       <FUITeamWithLargeAvatars />
       <CTA />
     </>

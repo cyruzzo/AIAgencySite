@@ -17,8 +17,7 @@ export default () => {
     { title: "About", path: "/" },
     {
       title: "Pricing",
-      path: "#pricing",
-      props: { target: "_blank" },
+      path: "#pricing"
     },
   ];
 
