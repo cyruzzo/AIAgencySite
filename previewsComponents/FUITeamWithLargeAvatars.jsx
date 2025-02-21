@@ -28,7 +28,7 @@ export default function FUITeamWithLargeAvatars() {
         {
             avatar: "https://pbs.twimg.com/profile_images/1297200159437344768/Soyc7cpr_400x400.jpg",
             name: "Vincenzo Manto",
-            title: "CTO",
+            title: "Technical Partner",
             desc: "The head behind the technology innovation",
             linkedin: "https://www.linkedin.com/in/vincenzomanto",
             twitter: "javascript:void(0)",
