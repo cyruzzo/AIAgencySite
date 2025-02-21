@@ -57,7 +57,7 @@ export default () => {
               </Link>
               <div className="flex md:hidden">
                 <div className="mr-3">
-                  <EditorWithAiButton />
+                  {/* <EditorWithAiButton /> */}
                 </div>
                 <button
                   aria-label="menu button"
@@ -91,7 +91,7 @@ export default () => {
                   );
                 })}
                 <li>
-                  <EditorWithAiButton />
+                  {/* <EditorWithAiButton /> */}
                 </li>
               </ul>
               <div className="mt-6 md:mt-0">
