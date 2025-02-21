@@ -4,14 +4,14 @@ import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import MDXRemoteClient from "components/MDXRemoteClient";
 
-const title = "NineSeek - License";
+const title = "TeraBrain - License";
 
 export const metadata = {
-  metadataBase: new URL("https://serviceautomate.com"),
+  metadataBase: new URL("https://terabrain.ai"),
   title,
   openGraph: {
     title,
-    url: "https://serviceautomate.com",
+    url: "https://terabrain.ai",
   },
   twitter: {
     title,
@@ -34,7 +34,7 @@ export default async () => {
             License
           </h1>
           <p className="text-zinc-400 mt-3">
-            All you need to know about the NineSeek licensing model
+            All you need to know about the TeraBrain licensing model
           </p>
         </div>
         <article className="prose prose-invert mt-12 mx-4 sm:mx-auto">

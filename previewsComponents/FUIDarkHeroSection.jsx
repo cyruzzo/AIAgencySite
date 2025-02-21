@@ -20,10 +20,10 @@ export default function FUIDarkHeroSection() {
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
                     <a href="javascript:void(0)">
                         <img
-                            src="https://www.serviceautomate.com/images/logo.svg" 
+                            src="https://www.terabrain.ai/images/logo.svg" 
                             width={50} 
                             height={50}
-                            alt="NineSeek logo"
+                            alt="TeraBrain logo"
                         />
                     </a>
                     <ul className="py-4 flex-1 items-center flex space-x-3 sm:space-x-6 sm:justify-end">

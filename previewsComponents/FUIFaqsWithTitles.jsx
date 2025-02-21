@@ -62,7 +62,7 @@ export default function FUIFaqsWithTitles() {
                             Can’t find the answer you’re looking for? feel free to{" "}
                             <a
                                 className='text-indigo-600 font-semibold whitespace-nowrap'
-                                href='support@serviceautomate.com'>
+                                href='support@terabrain.ai'>
                                 contact us
                             </a>
                             .

@@ -64,7 +64,7 @@ export default () => (
             ))}
           </ul>
           <ul className="space-y-2">
-            <li className="text-zinc-100 font-medium">NineSeek</li>
+            <li className="text-zinc-100 font-medium">TeraBrain</li>
             {marsNavigation.map((item, idx) => (
               <li
                 key={idx}
@@ -82,7 +82,7 @@ export default () => (
         <div className="text-zinc-300 py-8">
           &copy; {
             new Date().getFullYear()
-          } NineSeek. All rights reserved.
+          } TeraBrain. All rights reserved.
         </div>
       </div>
     </div>

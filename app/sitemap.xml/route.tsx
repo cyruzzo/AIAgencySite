@@ -1,5 +1,5 @@
 import sections from "sections/sections.json";
-const BASE_URL = "https://serviceautomate.com";
+const BASE_URL = "https://terabrain.ai";
 
 
 async function generateSiteMap() {

@@ -41,7 +41,7 @@ export default function FUISecondaryNavbar() {
                               src="/logo.svg" 
                               width={50} 
                               height={50}
-                              alt="NineSeek logo"
+                              alt="TeraBrain logo"
                           />
                       </a>
                     <div className="lg:hidden">

@@ -83,10 +83,10 @@ const AvatarMenue = () => {
                 <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
                     <a href="javascript:void(0)">
                         <img
-                            src="https://www.serviceautomate.com/logo.svg"
+                            src="https://www.terabrain.ai/logo.svg"
                             width={50}
                             height={50}
-                            alt="NineSeek logo"
+                            alt="TeraBrain logo"
                         />
                     </a>
                     <div className="lg:hidden">

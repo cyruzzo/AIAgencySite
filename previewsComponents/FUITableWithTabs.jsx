@@ -29,7 +29,7 @@ export default function FUITableWithTabs() {
                     impression: "Great"
                 },
                 {
-                    prop: "https://www.serviceautomate.com",
+                    prop: "https://www.terabrain.ai",
                     clicks: "678",
                     impression: "Bad"
                 },

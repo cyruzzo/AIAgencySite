@@ -51,7 +51,7 @@ export default function FUIPricingSectionWithBadge() {
                 <p>{item.desc}</p>
                 <br/>
                 <a className="px-3 py-3 block text-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700"
-                href='https://app.serviceautomate.com'
+                href='https://app.terabrain.ai'
                 >Start 30-day trial</a>
               </div>
               <ul className="p-8 space-y-3">
@@ -72,7 +72,7 @@ export default function FUIPricingSectionWithBadge() {
         </div>
         <p className="text-center text-zinc-400 m-5 p-5">"Limited Early Access" pricing available for early adopters. Contact us for enterprise solutions and custom integrations.</p>
         <h4 className="text-center  my-5">If you are fearful...</h4>
-        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 block text-center" href='https://app.serviceautomate.com'>Try with Free plan</a>
+        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 block text-center" href='https://app.terabrain.ai'>Try with Free plan</a>
       </div>
     </section>
   );

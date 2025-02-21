@@ -9,14 +9,14 @@ import metatag from "metatag";
 const { title, desc, ogImage } = metatag;
 
 export const metadata = {
-  metadataBase: new URL("https://serviceautomate.com"),
+  metadataBase: new URL("https://terabrain.ai"),
   title,
   description: desc,
   openGraph: {
     title,
     description: desc,
     images: ogImage,
-    url: "https://serviceautomate.com",
+    url: "https://terabrain.ai",
   },
   twitter: {
     title,

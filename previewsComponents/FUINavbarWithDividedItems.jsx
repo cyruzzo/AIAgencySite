@@ -24,10 +24,10 @@ export default function FUINavbarWithDividedItems() {
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
                         <img
-                            src="https://www.serviceautomate.com/logo.svg"
+                            src="https://www.terabrain.ai/logo.svg"
                             width={50}
                             height={50}
-                            alt="NineSeek logo"
+                            alt="TeraBrain logo"
                         />
                     </a>
                     <div className="md:hidden">

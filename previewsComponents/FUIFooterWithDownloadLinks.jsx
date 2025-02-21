@@ -31,7 +31,7 @@ export default function FUIFooterWithDownloadLinks() {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="justify-between sm:flex">
                     <div className="space-y-6">
-                        <img src="https://www.serviceautomate.com/logo.svg" className="w-32" />
+                        <img src="https://www.terabrain.ai/logo.svg" className="w-32" />
                         <p className="max-w-md">
                             Nulla auctor metus vitae lectus iaculis, vel euismod massa efficitur.
                         </p>
@@ -60,7 +60,7 @@ export default function FUIFooterWithDownloadLinks() {
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t md:text-center">
-                    <p>© 2022 NineSeek Inc. All rights reserved.</p>
+                    <p>© 2022 TeraBrain Inc. All rights reserved.</p>
                 </div>
             </div>
         </footer>

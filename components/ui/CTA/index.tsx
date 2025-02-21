@@ -12,7 +12,7 @@ export default () => (
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <LinkItem
-href='https://app.serviceautomate.com'
+href='https://app.terabrain.ai'
           variant="shiny"
           className="inline-block w-full hover:bg-zinc-700 sm:w-auto"
         >

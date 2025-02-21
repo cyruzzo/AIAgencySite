@@ -26,10 +26,10 @@ export default function FUISecondaryHeroSection() {
                     <div className="flex justify-between">
                         <a href="javascript:void(0)">
                             <img
-                                src="https://www.serviceautomate.com/logo.svg" 
+                                src="https://www.terabrain.ai/logo.svg" 
                                 width={50} 
                                 height={50}
-                                alt="NineSeek logo"
+                                alt="TeraBrain logo"
                             />
                         </a>
                         <button className="text-gray-500 outline-none sm:hidden"
