@@ -44,9 +44,13 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=3"
         />
+        <meta name="color-scheme" content="only light"/>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="Expires" content="0"/>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@float_ui" />
-        <meta name="twitter:creator" content="@float_ui" />
+        <meta name="twitter:site" content="@terabrain" />
+        <meta name="twitter:creator" content="@terabrain" />
         <link rel="icon" href="/logo.svg" />
         <meta
           name="google-site-verification"
