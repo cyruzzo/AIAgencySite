@@ -38,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-zinc-950">
+    <html lang="en" className="bg-zinc-950" style="color-scheme: dark !important; filter: none !important">
       <head>
         <meta
           name="viewport"
