@@ -44,7 +44,7 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=3"
         />
-        <meta name="color-scheme" content="only light"/>
+        <meta name="color-scheme" content="only dark"/>
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
         <meta http-equiv="Pragma" content="no-cache"/>
         <meta http-equiv="Expires" content="0"/>
