@@ -11,6 +11,10 @@ html {
   animation: 0.4s smoothScroll forwards;
 }
 
+a {
+  outline: red !important;
+}
+
 @keyframes smoothScroll {
   0% {
     transform: translateY(-6em);

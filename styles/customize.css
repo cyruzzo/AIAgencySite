@@ -1,7 +1,22 @@
 html {
   scroll-behavior: smooth;
 }
+a {
+  outline: red !important;
+}
 
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: black;
+      color: white;
+  }
+}
 .max-w-screen {
   @apply max-w-screen-xl mx-auto px-4;
 }

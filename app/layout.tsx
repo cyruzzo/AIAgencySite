@@ -38,13 +38,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-zinc-950" style="color-scheme: dark !important; filter: none !important">
+    <html lang="en" className="bg-zinc-950 dark:bg-zinc-900 text-zinc-50 dark:text-zinc-50">
       <head>
+      <meta name="darkreader-lock"/>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=3"
         />
-        <meta name="color-scheme" content="only dark"/>
+        <meta name="color-scheme" content="dark"/>
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
         <meta http-equiv="Pragma" content="no-cache"/>
         <meta http-equiv="Expires" content="0"/>
