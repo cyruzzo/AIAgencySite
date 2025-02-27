@@ -117,10 +117,10 @@ export default function FUITabsWithIcons() {
         {tabItems.map((item, idx) => (
           <Tabs.Trigger
             key={idx}
-            className="group outline-none py-1.5 border-b-2 border-white text-gray-500 data-[state=active]:border-indigo-600 data-[state=active]:text-indigo-600"
+            className="group outline-none py-1.5 border-b-2 border-white text-gray-500 data-[state=active]:border-yellow-600 data-[state=active]:text-yellow-600"
             value={item.name}
           >
-            <div className="flex items-center gap-x-2 py-1.5 px-3 rounded-lg duration-150 group-hover:text-indigo-600 group-hover:bg-gray-50 group-active:bg-gray-100 font-medium">
+            <div className="flex items-center gap-x-2 py-1.5 px-3 rounded-lg duration-150 group-hover:text-yellow-600 group-hover:bg-gray-50 group-active:bg-gray-100 font-medium">
               {item.icon}
               {item.name}
             </div>

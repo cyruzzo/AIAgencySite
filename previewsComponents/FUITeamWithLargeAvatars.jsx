@@ -61,7 +61,7 @@ export default function FUITeamWithLargeAvatars() {
                                     </div>
                                     <div className="mt-2">
                                         <h4 className="text-zinc-100 font-semibold sm:text-lg">{item.name}</h4>
-                                        <p className="text-indigo-600">{item.title}</p>
+                                        <p className="text-yellow-600">{item.title}</p>
                                         <p className="text-zinc-400 mt-2">{item.desc}</p>
                                         <div className="mt-4 flex justify-center gap-4 text-gray-400">
                                             <a href={item.twitter}>

@@ -57,7 +57,7 @@ export default function FUISidebarWithListOfLessons() {
                                           <li key={idx}>
                                               <a
                                                   href={item?.href}
-                                                  className='block w-full py-2 px-4 border-l hover:border-indigo-600 hover:text-gray-900 duration-150'>
+                                                  className='block w-full py-2 px-4 border-l hover:border-yellow-600 hover:text-gray-900 duration-150'>
                                                   {item?.name}
                                               </a>
                                           </li>
@@ -75,7 +75,7 @@ export default function FUISidebarWithListOfLessons() {
                                           <li key={idx}>
                                               <a
                                                   href={item?.href}
-                                                  className='block w-full py-2 px-4 border-l hover:border-indigo-600 hover:text-gray-900 duration-150'>
+                                                  className='block w-full py-2 px-4 border-l hover:border-yellow-600 hover:text-gray-900 duration-150'>
                                                   {item?.name}
                                               </a>
                                           </li>

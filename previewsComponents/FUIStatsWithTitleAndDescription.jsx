@@ -43,7 +43,7 @@ export default function FUIStatsWithTitleAndDescription() {
                         {
                             stats.map((item, idx) => (
                                 <li key={idx} className="text-center px-12 md:px-16">
-                                    <h4 className="text-4xl text-indigo-600 font-semibold">{item.data}</h4>
+                                    <h4 className="text-4xl text-yellow-600 font-semibold">{item.data}</h4>
                                     <p className="mt-3 font-medium">{item.title}</p>
                                 </li>
                             ))

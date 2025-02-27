@@ -42,15 +42,15 @@ export default function FUIPricingSectionWithBadge() {
             <div key={idx} className={`relative flex-1 flex items-stretch flex-col rounded-xl border-2 mt-6 sm:mt-0 ${item.isMostPop ? 'mt-10' : ''} ${item.blurred ? 'filter blur-sm' : ''}`}>
               {item.isMostPop ? <span class="w-32 absolute -top-5 left-0 right-0 mx-auto px-3 py-2 rounded-full border shadow-md bg-white text-center text-gray-700 text-sm font-semibold">Most popular</span> : ''}
               <div className="p-8 space-y-4 border-b">
-                <span className="text-indigo-600 font-medium">{item.name}</span>
+                <span className="text-yellow-600 font-medium">{item.name}</span>
 
                 <div className="text-zinc-400 text-3xl font-semibold">
                   € {item.price} <span className="text-xl text-zinc-100 font-normal">/mo</span>
-                  {item.clearPrice && <div className="text-indigo-400 text-xl font-semibold line-through float-right transform rotate-45">€ {item.clearPrice}</div>}
+                  {item.clearPrice && <div className="text-yellow-400 text-xl font-semibold line-through float-right transform rotate-45">€ {item.clearPrice}</div>}
                 </div>
                 <p>{item.desc}</p>
                 <br/>
-                <a className="px-3 py-3 block text-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700"
+                <a className="px-3 py-3 block text-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700"
                 href='https://app.terabrain.ai'
                 >Start 30-day trial</a>
               </div>
@@ -60,7 +60,7 @@ export default function FUIPricingSectionWithBadge() {
                 </li>
                 {item.features.map((featureItem, idx) => (
                   <li key={idx} className="flex items-center gap-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-600" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
                     {featureItem}
@@ -72,7 +72,7 @@ export default function FUIPricingSectionWithBadge() {
         </div>
         <p className="text-center text-zinc-400 m-5 p-5">"Limited Early Access" pricing available for early adopters. Contact us for enterprise solutions and custom integrations.</p>
         <h4 className="text-center  my-5">If you are fearful...</h4>
-        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 block text-center" href='https://app.terabrain.ai'>Try with Free plan</a>
+        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 block text-center" href='https://app.terabrain.ai'>Try with Free plan</a>
       </div>
     </section>
   );

@@ -51,14 +51,14 @@ export default function FUIHeroSectionWithLogoClouds() {
                     <div className="items-center space-y-5 md:flex md:space-x-6 md:space-y-0 md:ml-12">
                         {
                             navigation.map((item, idx) => (
-                                <li className="text-gray-500 hover:text-indigo-600" key={idx}>
+                                <li className="text-gray-500 hover:text-yellow-600" key={idx}>
                                     <a href={item.path}>{item.title}</a>
                                 </li>
                             ))
                         }
                     </div>
                     <li className="order-2 py-5 md:py-0">
-                        <a href="javascript:void(0)" className="py-2 px-5 rounded-lg font-medium text-white text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 duration-150 block md:py-3 md:inline">
+                        <a href="javascript:void(0)" className="py-2 px-5 rounded-lg font-medium text-white text-center bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 duration-150 block md:py-3 md:inline">
                             Get started
                         </a>
                     </li>
@@ -67,7 +67,7 @@ export default function FUIHeroSectionWithLogoClouds() {
             <section className="py-28">
                 <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
                     <div className="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
-                        <h1 className="text-sm text-indigo-600 font-medium">
+                        <h1 className="text-sm text-yellow-600 font-medium">
                             Over 200 successful deals
                         </h1>
                         <h2 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
@@ -77,7 +77,7 @@ export default function FUIHeroSectionWithLogoClouds() {
                             Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
                         </p>
                         <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-                            <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+                            <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-yellow-600 duration-150 hover:bg-yellow-500 active:bg-yellow-700 rounded-lg shadow-lg hover:shadow-none">
                                 Let's get started
                             </a>
                             <a href="javascript:void(0)" className="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex">

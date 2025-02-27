@@ -11,31 +11,31 @@ export default function FUIRoundedButtons() {
         <div className="btns-container">
 
         <button
-            className="px-3 py-1.5 text-sm text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
+            className="px-3 py-1.5 text-sm text-white duration-150 bg-yellow-600 rounded-full hover:bg-yellow-500 active:bg-yellow-700"
         >
             Button
         </button>
 
         <button
-            className="px-4 py-2 text-white bg-indigo-600 rounded-full duration-150 hover:bg-indigo-500 active:bg-indigo-700"
+            className="px-4 py-2 text-white bg-yellow-600 rounded-full duration-150 hover:bg-yellow-500 active:bg-yellow-700"
         >
             Button
         </button>
 
         <button
-            className="px-5 py-3 text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
+            className="px-5 py-3 text-white duration-150 bg-yellow-600 rounded-full hover:bg-yellow-500 active:bg-yellow-700"
         >
             Button
         </button>
 
         <button
-            className="px-6 py-3.5 text-white bg-indigo-600 rounded-full duration-150 hover:bg-indigo-500 active:bg-indigo-700"
+            className="px-6 py-3.5 text-white bg-yellow-600 rounded-full duration-150 hover:bg-yellow-500 active:bg-yellow-700"
         >
             Button
         </button>
 
         <button
-            className="px-7 py-4 text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
+            className="px-7 py-4 text-white duration-150 bg-yellow-600 rounded-full hover:bg-yellow-500 active:bg-yellow-700"
         >
             Button
         </button>

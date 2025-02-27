@@ -18,7 +18,7 @@ export default function FUISectionHeaderWithButtons() {
                 <div className="items-center gap-x-3 mt-6 md:mt-0 sm:flex">
                     <a
                         href="javascript:void(0)"
-                        className="block px-4 py-2 text-center text-white duration-150 font-medium bg-indigo-600 rounded-lg hover:bg-indigo-500 active:bg-indigo-700 md:text-sm"
+                        className="block px-4 py-2 text-center text-white duration-150 font-medium bg-yellow-600 rounded-lg hover:bg-yellow-500 active:bg-yellow-700 md:text-sm"
                     >
                         Browse reports
                     </a>

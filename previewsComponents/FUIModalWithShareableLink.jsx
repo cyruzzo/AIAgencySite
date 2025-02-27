@@ -57,7 +57,7 @@ export default function FUIModalWithShareableLink() {
                             </div>
                             <div className="p-2 border rounded-lg flex items-center justify-between">
                                 <p className="text-sm text-gray-600 overflow-hidden">{URLLink}</p>
-                                <button className={`relative text-gray-500 hover:text-gray-800 duration-150 ${copyState ? "text-indigo-600 pointer-events-none" : ""}`}
+                                <button className={`relative text-gray-500 hover:text-gray-800 duration-150 ${copyState ? "text-yellow-600 pointer-events-none" : ""}`}
                                     onClick={handleCopy}
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -65,12 +65,12 @@ export default function FUIModalWithShareableLink() {
                                     </svg>
                                     {
                                         copyState ? (
-                                            <div className="absolute -top-12 -left-3 px-2 py-1.5 rounded-xl bg-indigo-600 font-semibold text-white text-[10px] after:absolute after:inset-x-0 after:mx-auto after:top-[22px] after:w-2 after:h-2 after:bg-indigo-600 after:rotate-45">Copied</div>
+                                            <div className="absolute -top-12 -left-3 px-2 py-1.5 rounded-xl bg-yellow-600 font-semibold text-white text-[10px] after:absolute after:inset-x-0 after:mx-auto after:top-[22px] after:w-2 after:h-2 after:bg-yellow-600 after:rotate-45">Copied</div>
                                         ) : ""
                                     }
                                 </button>
                             </div>
-                            <button className="mt-2 py-2.5 px-8 flex-1 text-white bg-indigo-600 rounded-md outline-none ring-offset-2 ring-indigo-600 focus:ring-2"
+                            <button className="mt-2 py-2.5 px-8 flex-1 text-white bg-yellow-600 rounded-md outline-none ring-offset-2 ring-yellow-600 focus:ring-2"
                                 onClick={() => setState(false)}
                             >
                                 Done

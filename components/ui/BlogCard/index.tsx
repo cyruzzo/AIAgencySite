@@ -27,7 +27,7 @@ export default ({
             {desc}
           </p>
         </div>
-        <button className="mt-2 outline-none flex items-center text-[14px] text-indigo-400 decoration-indigo-600 hover:underline">
+        <button className="mt-2 outline-none flex items-center text-[14px] text-yellow-400 decoration-yellow-600 hover:underline">
           READ MORE
           <ArrowLongRightIcon className="w-4 h-4 ml-2" />
         </button>

@@ -61,7 +61,7 @@ export default function FUIFaqsWithTitles() {
                         <p>
                             Can’t find the answer you’re looking for? feel free to{" "}
                             <a
-                                className='text-indigo-600 font-semibold whitespace-nowrap'
+                                className='text-yellow-600 font-semibold whitespace-nowrap'
                                 href='support@terabrain.ai'>
                                 contact us
                             </a>

@@ -53,7 +53,7 @@ export default function FUIPrimaryNavbar() {
                       {
                           navigation.map((item, idx) => {
                               return (
-                                <li key={idx} className="text-gray-600 hover:text-indigo-600">
+                                <li key={idx} className="text-gray-600 hover:text-yellow-600">
                                     <a href={item.path}>
                                         { item.title }
                                     </a>
@@ -64,7 +64,7 @@ export default function FUIPrimaryNavbar() {
                   </ul>
               </div>
               <div className="hidden md:inline-block">
-                <a href="javascript:void(0)" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
+                <a href="javascript:void(0)" className="py-3 px-4 text-white bg-yellow-600 hover:bg-yellow-700 rounded-md shadow">
                     Get Started
                 </a>
               </div>

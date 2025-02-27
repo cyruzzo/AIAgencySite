@@ -119,8 +119,8 @@ export default function FUITableWithTabs() {
                 <ul className="w-full border-b flex items-center gap-x-3 overflow-x-auto">
                     {
                         tableItems.map((item, idx) => (
-                            <li key={idx} className={`py-2 border-b-2 ${selectedItem == idx ? "border-indigo-600 text-indigo-600" : "border-white text-gray-500"}`}>
-                                <button className="py-2.5 px-4 rounded-lg duration-150 hover:text-indigo-600 hover:bg-gray-50 active:bg-gray-100 font-medium"
+                            <li key={idx} className={`py-2 border-b-2 ${selectedItem == idx ? "border-yellow-600 text-yellow-600" : "border-white text-gray-500"}`}>
+                                <button className="py-2.5 px-4 rounded-lg duration-150 hover:text-yellow-600 hover:bg-gray-50 active:bg-gray-100 font-medium"
                                     onClick={() => setSelectedItem(idx)}
                                 >
                                     {item.label}
@@ -142,7 +142,7 @@ export default function FUITableWithTabs() {
                             tableItems[selectedItem].items.map((item, idx) => (
                                 <tr key={idx}>
                                     <td className="pr-6 py-4 whitespace-nowrap">{item.prop}</td>
-                                    <td className="pr-6 py-4 whitespace-nowrap text-indigo-600">{item.clicks}</td>
+                                    <td className="pr-6 py-4 whitespace-nowrap text-yellow-600">{item.clicks}</td>
                                     <td className="pr-6 py-4 whitespace-nowrap">
                                         <span className={`py-2 px-3 rounded-full font-semibold text-xs ${labelColors[item?.impression]?.color || ""}`}>{item.impression}</span>
                                     </td>

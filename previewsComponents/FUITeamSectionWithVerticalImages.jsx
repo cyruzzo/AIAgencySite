@@ -72,7 +72,7 @@ export default function FUITeamSectionWithVerticalImages() {
                                     </div>
                                     <div className="mt-4 sm:mt-0">
                                         <h4 className="text-lg text-gray-700 font-semibold">{item.name}</h4>
-                                        <p className="text-indigo-600">{item.title}</p>
+                                        <p className="text-yellow-600">{item.title}</p>
                                         <p className="text-gray-600 mt-2">{item.desc}</p>
                                         <div className="mt-3 flex gap-4 text-gray-400">
                                             <a href={item.twitter}>

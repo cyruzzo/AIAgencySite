@@ -32,7 +32,7 @@ export default () => (
           Give your team members access to manage the system.
         </p>
       </div>
-      <LinkItem className="flex-none flex items-center gap-1 rounded-lg text-xs text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 px-3 py-2" href="https://app.test.terabrain.ai/" target="_blank">
+      <LinkItem className="flex-none flex items-center gap-1 rounded-lg text-xs text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 px-3 py-2" href="https://app.test.terabrain.ai/" target="_blank">
         <PlusIcon className="w-5 h-5" />
         New agent
       </LinkItem>

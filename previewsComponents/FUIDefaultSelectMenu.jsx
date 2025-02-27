@@ -21,7 +21,7 @@ export default function FUIDefaultSelectMenu() {
           clipRule="evenodd"
         />
       </svg>
-      <select className="w-full px-3 py-2 text-sm text-gray-600 bg-white border rounded-lg shadow-sm outline-none appearance-none focus:ring-offset-2 focus:ring-indigo-600 focus:ring-2">
+      <select className="w-full px-3 py-2 text-sm text-gray-600 bg-white border rounded-lg shadow-sm outline-none appearance-none focus:ring-offset-2 focus:ring-yellow-600 focus:ring-2">
         <option>Project manager</option>
         <option>Software engineer</option>
         <option>IT manager</option>

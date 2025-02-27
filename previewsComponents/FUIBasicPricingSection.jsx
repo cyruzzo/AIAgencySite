@@ -69,7 +69,7 @@ export default function FUIBasicPricingSection() {
                         plans.map((item, idx) => (
                             <div key={idx} className='relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2'>
                                 <div>
-                                    <span className='text-indigo-600 font-medium'>
+                                    <span className='text-yellow-600 font-medium'>
                                         {item.name}
                                     </span>
                                     <div className='mt-4 text-gray-800 text-3xl font-semibold'>
@@ -82,7 +82,7 @@ export default function FUIBasicPricingSection() {
                                             <li key={idx} className='flex items-center gap-5'>
                                                 <svg
                                                     xmlns='http://www.w3.org/2000/svg'
-                                                    className='h-5 w-5 text-indigo-600'
+                                                    className='h-5 w-5 text-yellow-600'
                                                     viewBox='0 0 20 20'
                                                     fill='currentColor'>
                                                     <path
@@ -96,7 +96,7 @@ export default function FUIBasicPricingSection() {
                                     }
                                 </ul>
                                 <div className="flex-1 flex items-end">
-                                    <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+                                    <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700'>
                                         Get Started
                                     </button>
                                 </div>

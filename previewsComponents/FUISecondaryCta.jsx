@@ -13,13 +13,13 @@ export default function FUISecondaryCta() {
             <div className="relative z-10 items-center gap-5 lg:flex">
                 <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
                     <h3 className="text-3xl font-semibold text-gray-800 md:text-4xl">
-                        build your websites with <span className="text-indigo-600">high performance</span>
+                        build your websites with <span className="text-yellow-600">high performance</span>
                     </h3>
                     <p className="mt-3 leading-relaxed text-gray-500">
                         Nam erat risus, sodales sit amet lobortis ut, finibus eget metus. Cras aliquam ante ut tortor posuere feugiat. Duis sodales nisi id porta lacinia.
                     </p>
                     <a
-                        className="inline-flex items-center px-4 py-2 mt-5 font-medium text-indigo-600 rounded-full bg-indigo-50"
+                        className="inline-flex items-center px-4 py-2 mt-5 font-medium text-yellow-600 rounded-full bg-yellow-50"
                         href="javascript:void()">
                         Try it out
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">

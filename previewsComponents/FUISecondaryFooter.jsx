@@ -97,7 +97,7 @@ export default function FUISecondaryFooter() {
                                 className="w-full p-2.5 outline-none"
                             />
                             <button
-                                className="p-2.5 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none sm:px-5"
+                                className="p-2.5 rounded-md text-white bg-yellow-600 outline-none shadow-md focus:shadow-none sm:px-5"
                             >
                                 Subscribe
                             </button>
@@ -119,7 +119,7 @@ export default function FUISecondaryFooter() {
                                         <li key={idx}>
                                             <a 
                                                 href={el.href}
-                                                className="hover:underline hover:text-indigo-600"
+                                                className="hover:underline hover:text-yellow-600"
                                             
                                             >
                                                 { el.name }

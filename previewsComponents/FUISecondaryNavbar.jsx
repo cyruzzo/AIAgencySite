@@ -66,17 +66,17 @@ export default function FUISecondaryNavbar() {
                       <div>
                           <ul className="flex flex-col-reverse space-x-0 lg:space-x-6 lg:flex-row">
                               <li className="mt-8 mb-8 lg:mt-0 lg:mb-0">
-                                  <a href="javascript:void(0)" className="text-gray-600 hover:text-indigo-600">
+                                  <a href="javascript:void(0)" className="text-gray-600 hover:text-yellow-600">
                                       Contact
                                   </a>
                               </li>
                               <li className="mt-4 lg:mt-0">
-                                  <a href="javascript:void(0)" className="py-3 px-4 text-center border text-gray-600 hover:text-indigo-600 rounded-md block lg:inline lg:border-0">
+                                  <a href="javascript:void(0)" className="py-3 px-4 text-center border text-gray-600 hover:text-yellow-600 rounded-md block lg:inline lg:border-0">
                                       Login
                                   </a>
                               </li>
                               <li className="mt-8 lg:mt-0">
-                                  <a href="javascript:void(0)" className="py-3 px-4 text-center text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow block lg:inline">
+                                  <a href="javascript:void(0)" className="py-3 px-4 text-center text-white bg-yellow-600 hover:bg-yellow-700 rounded-md shadow block lg:inline">
                                       Sign Up
                                   </a>
                               </li>
@@ -87,7 +87,7 @@ export default function FUISecondaryNavbar() {
                               {
                                   navigation.map((item, idx) => {
                                       return (
-                                          <li key={idx} className="text-gray-600 hover:text-indigo-600">
+                                          <li key={idx} className="text-gray-600 hover:text-yellow-600">
                                               <a href={item.path}>
                                                   { item.title }
                                               </a>

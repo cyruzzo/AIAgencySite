@@ -88,7 +88,7 @@ export default function FUITableWithCheckbox() {
                 <div className="mt-3 md:mt-0">
                     <a
                         href="javascript:void(0)"
-                        className="inline-block px-4 py-2 text-white duration-150 font-medium bg-indigo-600 rounded-lg hover:bg-indigo-500 active:bg-indigo-700 md:text-sm"
+                        className="inline-block px-4 py-2 text-white duration-150 font-medium bg-yellow-600 rounded-lg hover:bg-yellow-500 active:bg-yellow-700 md:text-sm"
                     >
                         Add member
                     </a>
@@ -106,7 +106,7 @@ export default function FUITableWithCheckbox() {
                                     />
                                     <label
                                         htmlFor="checkbox-all-items"
-                                        className="relative flex w-5 h-5 bg-white peer-checked:bg-indigo-600 rounded-md border ring-offset-2 ring-indigo-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
+                                        className="relative flex w-5 h-5 bg-white peer-checked:bg-yellow-600 rounded-md border ring-offset-2 ring-yellow-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
                                     >
                                     </label>
                                 </div>
@@ -131,7 +131,7 @@ export default function FUITableWithCheckbox() {
                                             />
                                             <label
                                                 htmlFor={`checkbox-${idx}`}
-                                                className="relative flex w-5 h-5 bg-white peer-checked:bg-indigo-600 rounded-md border ring-offset-2 ring-indigo-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
+                                                className="relative flex w-5 h-5 bg-white peer-checked:bg-yellow-600 rounded-md border ring-offset-2 ring-yellow-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
                                             >
                                             </label>
                                         </div>
@@ -141,7 +141,7 @@ export default function FUITableWithCheckbox() {
                                     <td className="px-6 py-4 whitespace-nowrap">{item.position}</td>
                                     <td className="px-6 py-4 whitespace-nowrap">{item.salary}</td>
                                     <td className="text-right px-6 whitespace-nowrap">
-                                        <a href="javascript:void()" className="py-2 px-3 font-medium text-indigo-600 hover:text-indigo-500 duration-150 hover:bg-gray-50 rounded-lg">
+                                        <a href="javascript:void()" className="py-2 px-3 font-medium text-yellow-600 hover:text-yellow-500 duration-150 hover:bg-gray-50 rounded-lg">
                                             Edit
                                         </a>
                                         <button href="javascript:void()" className="py-2 leading-none px-3 font-medium text-red-600 hover:text-red-500 duration-150 hover:bg-gray-50 rounded-lg">

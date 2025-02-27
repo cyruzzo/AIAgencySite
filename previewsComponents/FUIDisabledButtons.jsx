@@ -10,31 +10,31 @@ export default function FUIDisabledButtons() {
     return (
         <div className="btns-container">
             <button
-                className="px-4 py-2 text-sm text-white bg-indigo-300 rounded-lg cursor-not-allowed"
+                className="px-4 py-2 text-sm text-white bg-yellow-300 rounded-lg cursor-not-allowed"
             >
                 Button
             </button>
 
             <button
-                className="px-5 py-2.5 text-white bg-indigo-300 cursor-not-allowed rounded-lg"
+                className="px-5 py-2.5 text-white bg-yellow-300 cursor-not-allowed rounded-lg"
             >
                 Button
             </button>
 
             <button
-                className="px-6 py-3 text-white bg-indigo-300 rounded-lg cursor-not-allowed"
+                className="px-6 py-3 text-white bg-yellow-300 rounded-lg cursor-not-allowed"
             >
                 Button
             </button>
 
             <button
-                className="px-7 py-3.5 text-white bg-indigo-300 cursor-not-allowed rounded-lg"
+                className="px-7 py-3.5 text-white bg-yellow-300 cursor-not-allowed rounded-lg"
             >
                 Button
             </button>
 
             <button
-                className="px-8 py-4 text-white bg-indigo-300 rounded-lg cursor-not-allowed"
+                className="px-8 py-4 text-white bg-yellow-300 rounded-lg cursor-not-allowed"
             >
                 Button
             </button>

@@ -78,7 +78,7 @@ export default function FUIFeatureSectionWithCards() {
                         {
                             features.map((item, idx) => (
                                 <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg">
-                                    <div className="text-indigo-600 pb-3">
+                                    <div className="text-yellow-600 pb-3">
                                         {item.icon}
                                     </div>
                                     <h4 className="text-lg text-gray-800 font-semibold">

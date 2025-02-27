@@ -10,28 +10,28 @@ export default function FUIButtonsWithLowColors() {
   return (
     <div className="btns-container">
         <button
-            className="px-3 py-1.5 text-sm text-indigo-600 duration-150 bg-indigo-50 rounded-lg hover:bg-indigo-100 active:bg-indigo-200"
+            className="px-3 py-1.5 text-sm text-yellow-600 duration-150 bg-yellow-50 rounded-lg hover:bg-yellow-100 active:bg-yellow-200"
         >
             Button
         </button>
         <button
-            className="px-4 py-2 text-indigo-600 bg-indigo-50 rounded-lg duration-150 hover:bg-indigo-100 active:bg-indigo-200"
+            className="px-4 py-2 text-yellow-600 bg-yellow-50 rounded-lg duration-150 hover:bg-yellow-100 active:bg-yellow-200"
         >
             Button
         </button>
         <button
-            className="px-5 py-3 text-indigo-600 duration-150 bg-indigo-50 rounded-lg hover:bg-indigo-100 active:bg-indigo-200"
+            className="px-5 py-3 text-yellow-600 duration-150 bg-yellow-50 rounded-lg hover:bg-yellow-100 active:bg-yellow-200"
         >
             Button
         </button>
         <button
-            className="px-6 py-3.5 text-indigo-600 bg-indigo-50 rounded-lg duration-150 hover:bg-indigo-100 active:bg-indigo-200"
+            className="px-6 py-3.5 text-yellow-600 bg-yellow-50 rounded-lg duration-150 hover:bg-yellow-100 active:bg-yellow-200"
         >
             Button
         </button>
 
         <button
-            className="px-7 py-4 text-indigo-600 duration-150 bg-indigo-50 rounded-lg hover:bg-indigo-100 active:bg-indigo-200"
+            className="px-7 py-4 text-yellow-600 duration-150 bg-yellow-50 rounded-lg hover:bg-yellow-100 active:bg-yellow-200"
         >
             Button
         </button>

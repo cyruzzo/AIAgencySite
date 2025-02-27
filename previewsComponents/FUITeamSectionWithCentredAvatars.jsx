@@ -76,7 +76,7 @@ export default function FUITeamSectionWithCentredAvatars() {
                                     </div>
                                     <div className="mt-2">
                                         <h4 className="text-gray-700 font-semibold sm:text-lg">{item.name}</h4>
-                                        <p className="text-indigo-600">{item.title}</p>
+                                        <p className="text-yellow-600">{item.title}</p>
                                     </div>
                                 </li>
                             ))

@@ -16,7 +16,7 @@ export default function FUIBasicRadioGroup() {
             <ul className="mt-3 space-y-3">
                 {/* Radio */}
                 <li className="flex items-center gap-x-2.5">
-                    <input type="radio" name="role" defaultChecked id="admin" className="form-radio border-gray-400 text-indigo-600 focus:ring-indigo-600 duration-150" />
+                    <input type="radio" name="role" defaultChecked id="admin" className="form-radio border-gray-400 text-yellow-600 focus:ring-yellow-600 duration-150" />
                     <label htmlFor="admin" className="text-sm text-gray-700 font-medium">
                         Admin
                     </label>
@@ -25,7 +25,7 @@ export default function FUIBasicRadioGroup() {
                 {
                     radios.map((item, idx) => (
                         <li key={idx} className="flex items-center gap-x-2.5">
-                            <input type="radio" name="role" id={idx} className="form-radio border-gray-400 text-indigo-600 focus:ring-indigo-600 duration-150" />
+                            <input type="radio" name="role" id={idx} className="form-radio border-gray-400 text-yellow-600 focus:ring-yellow-600 duration-150" />
                             <label htmlFor={idx} className="text-sm text-gray-700 font-medium">
                                 {item}
                             </label>

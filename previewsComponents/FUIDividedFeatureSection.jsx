@@ -39,7 +39,7 @@ export default function FUIDividedFeatureSection() {
         <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-xl space-y-3">
-                    <h3 className="text-indigo-600 font-semibold">
+                    <h3 className="text-yellow-600 font-semibold">
                         Features
                     </h3>
                     <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -54,7 +54,7 @@ export default function FUIDividedFeatureSection() {
                         {
                             features.map((item, idx) => (
                                 <li key={idx} className={`feature-${idx + 1} space-y-3 py-8 lg:px-12 sm:py-0`}>
-                                    <div className="w-12 h-12 border text-indigo-600 rounded-full flex items-center justify-center">
+                                    <div className="w-12 h-12 border text-yellow-600 rounded-full flex items-center justify-center">
                                         {item.icon}
                                     </div>
                                     <h4 className="text-lg text-gray-800 font-semibold">

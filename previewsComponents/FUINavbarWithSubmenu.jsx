@@ -143,7 +143,7 @@ const AvatarMenue = () => {
                         submenuNav.map((item, idx) => {
                             return (
                                 // Replace [idx == 0] with [window.location.pathname == item.path]
-                                <li key={idx} className={`py-1 ${idx == 0 ? "border-b-2 border-indigo-600" : ""}`}>
+                                <li key={idx} className={`py-1 ${idx == 0 ? "border-b-2 border-yellow-600" : ""}`}>
                                     <a href={item.path} className="block py-2 px-3 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100 duration-150">
                                         {item.title}
                                     </a>

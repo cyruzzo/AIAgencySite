@@ -50,14 +50,14 @@ export default function FUIPrimaryHeroSection() {
                     </div>
                     <ul className={`flex-1 justify-between mt-12 md:flex md:mt-0 ${state ? '' : 'hidden'}`}>
                         <li className="order-2 pb-5 md:pb-0">
-                            <a href="javascript:void(0)" className="py-3 px-6 rounded-md shadow-md text-white text-center bg-indigo-500 focus:shadow-none block md:inline">
+                            <a href="javascript:void(0)" className="py-3 px-6 rounded-md shadow-md text-white text-center bg-yellow-500 focus:shadow-none block md:inline">
                                 Sign In
                             </a>
                         </li>
                         <div className="order-1 flex-1 justify-center items-center space-y-5 md:flex md:space-x-6 md:space-y-0">
                             {
                                 navigation.map((item, idx) => (
-                                    <li className="text-gray-500 hover:text-indigo-600" key={idx}>
+                                    <li className="text-gray-500 hover:text-yellow-600" key={idx}>
                                         <a href={item.path}>{item.title}</a>
                                     </li>
                                 ))
@@ -70,17 +70,17 @@ export default function FUIPrimaryHeroSection() {
                 <div className="text-center space-y-4">
                     <h1 className="text-gray-800 font-bold text-4xl md:text-5xl">
                         Optimize your website for
-                         <span className="text-indigo-600"> Search engine</span>
+                         <span className="text-yellow-600"> Search engine</span>
                     </h1>
                     <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
                     </p>
                 </div>
                 <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-                    <a href="javascript:void(0)" className="px-10 py-3.5 w-full bg-indigo-600 text-white text-center rounded-md shadow-md block sm:w-auto">
+                    <a href="javascript:void(0)" className="px-10 py-3.5 w-full bg-yellow-600 text-white text-center rounded-md shadow-md block sm:w-auto">
                         Get started
                     </a>
-                    <a href="javascript:void(0)" className="px-10 py-3.5 w-full text-gray-500 text-center border rounded-md duration-300 hover:text-indigo-600 hover:shadow block sm:w-auto">
+                    <a href="javascript:void(0)" className="px-10 py-3.5 w-full text-gray-500 text-center border rounded-md duration-300 hover:text-yellow-600 hover:shadow block sm:w-auto">
                         Try it out
                     </a>
                 </div>

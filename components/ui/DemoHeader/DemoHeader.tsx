@@ -1,7 +1,7 @@
 export default () => {
   return (
     <div className='relative z-10 max-w-[45.4rem]'>
-      <h1 className='font-semibold text-indigo-600 dark:text-indigo-400'>
+      <h1 className='font-semibold text-yellow-600 dark:text-yellow-400'>
         Components demo
       </h1>
       <p className='mt-3 text-gray-800 dark:text-white text-3xl font-extrabold sm:text-5xl'>

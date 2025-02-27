@@ -18,7 +18,7 @@ export default function FUIPaginationWithCurrentPageInfo() {
                     Page {currentPage} of {pages.length}
                 </div>
                 <div className="flex items-center gap-12" aria-label="Pagination">
-                    <a href="javascript:void(0)" className="hover:text-indigo-600">
+                    <a href="javascript:void(0)" className="hover:text-yellow-600">
                         Previous
                     </a>
                     <ul className="flex items-center gap-1">
@@ -32,7 +32,7 @@ export default function FUIPaginationWithCurrentPageInfo() {
                                             </div>
                                         ) : (
 
-                                            <a href="javascript:void(0)" aria-current={currentPage == item ? "page" : false} className={`px-3 py-2 rounded-lg duration-150 hover:text-white hover:bg-indigo-600 ${currentPage == item ? "bg-indigo-600 text-white font-medium" : ""}`}>
+                                            <a href="javascript:void(0)" aria-current={currentPage == item ? "page" : false} className={`px-3 py-2 rounded-lg duration-150 hover:text-white hover:bg-yellow-600 ${currentPage == item ? "bg-yellow-600 text-white font-medium" : ""}`}>
                                                 {item}
                                             </a>
                                         )
@@ -41,7 +41,7 @@ export default function FUIPaginationWithCurrentPageInfo() {
                             ))
                         }
                     </ul>
-                    <a href="javascript:void(0)" className="hover:text-indigo-600">
+                    <a href="javascript:void(0)" className="hover:text-yellow-600">
                         Next
                     </a>
                 </div>

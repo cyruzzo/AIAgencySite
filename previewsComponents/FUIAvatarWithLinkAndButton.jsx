@@ -26,7 +26,7 @@ export default function FUIAvatarWithLinkAndButton() {
         </span>
         <a
           href="javascript:void(0)"
-          className="block text-indigo-600 hover:text-indigo-500 text-xs"
+          className="block text-yellow-600 hover:text-yellow-500 text-xs"
         >
           View profile
         </a>

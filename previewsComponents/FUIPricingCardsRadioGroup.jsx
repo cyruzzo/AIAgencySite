@@ -31,7 +31,7 @@ export default function FUIPricingCardsRadioGroup() {
                         <li key={idx}>
                             <label htmlFor={item.name} className="block relative">
                                 <input id={item.name} type="radio" defaultChecked={idx == 1 ? true : false} name="payment" class="sr-only peer" />
-                                <div className="w-full p-5 cursor-pointer rounded-lg border bg-white shadow-sm ring-indigo-600 peer-checked:ring-2 duration-200">
+                                <div className="w-full p-5 cursor-pointer rounded-lg border bg-white shadow-sm ring-yellow-600 peer-checked:ring-2 duration-200">
                                     <div className="pl-7">
                                         <h3 className="leading-none text-gray-800 font-medium">
                                             {item.name}
@@ -41,7 +41,7 @@ export default function FUIPricingCardsRadioGroup() {
                                         </p>
                                     </div>
                                 </div>
-                                <span className="block absolute top-5 left-5 border peer-checked:border-[5px] peer-checked:border-indigo-600 w-4 h-4 rounded-full">
+                                <span className="block absolute top-5 left-5 border peer-checked:border-[5px] peer-checked:border-yellow-600 w-4 h-4 rounded-full">
                                 </span>
                             </label>
                         </li>

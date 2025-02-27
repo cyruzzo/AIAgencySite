@@ -33,7 +33,7 @@ function FUIIntegrationsCard({integrations, title = "Integrations", desc = "Exte
                                 {item.cta && (<button className="text-zinc-400 text-sm border rounded-lg px-3 py-2 duration-150 hover:bg-gray-100" disabled>{item.cta}</button>)}
                             </div>
                             {item.footer && (<div className="py-5 px-4 border-t text-right">
-                                <a href="javascript:void(0)" className="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
+                                <a href="javascript:void(0)" className="text-yellow-600 hover:text-yellow-500 text-sm font-medium">
                                     View integration
                                 </a>
                             </div>)}

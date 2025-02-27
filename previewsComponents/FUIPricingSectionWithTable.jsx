@@ -8,7 +8,7 @@ import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 
 export default function FUIPricingSectionWithTable() {
 
-    const checkIcon = <svg className="w-5 h-5 mx-auto text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" /></svg>
+    const checkIcon = <svg className="w-5 h-5 mx-auto text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" /></svg>
     const minusIcon = <svg className="w-5 h-5 mx-auto text-gray-500" fill="currentColor" viewBox="0 0 20 20"><path d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" /></svg>
 
     const plans = [
@@ -149,7 +149,7 @@ export default function FUIPricingSectionWithTable() {
         <section className="py-14 text-gray-600">
             <div className="">
                 <div className='relative max-w-xl mx-auto space-y-3 px-4 sm:text-center md:px-0'>
-                    <h3 className="text-indigo-600 font-semibold">
+                    <h3 className="text-yellow-600 font-semibold">
                         Pricing
                     </h3>
                     <p className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
@@ -192,7 +192,7 @@ export default function FUIPricingSectionWithTable() {
                                             <p className="text-sm">
                                                 {item.desc}
                                             </p>
-                                            <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+                                            <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700'>
                                                 Get Started
                                             </button>
                                         </li>
@@ -209,7 +209,7 @@ export default function FUIPricingSectionWithTable() {
                                         <tr>
                                             <th className="z-20 top-12 py-6 lg:sticky">
                                                 <div className="flex items-center gap-x-3">
-                                                    <div className="w-12 h-12 text-indigo-600 rounded-full border flex items-center justify-center">
+                                                    <div className="w-12 h-12 text-yellow-600 rounded-full border flex items-center justify-center">
                                                         {table.label_icon}
                                                     </div>
                                                     <h4 className="text-gray-800 text-xl font-medium">

@@ -64,7 +64,7 @@ export default function FUIPricingSectionWithOnePlan() {
         <section className='relative py-14'>
             <div className="max-w-screen-xl mx-auto text-gray-600 md:px-8">
                 <div className='relative max-w-xl space-y-3 px-4 md:px-0'>
-                    <h3 className="text-indigo-600 font-semibold">
+                    <h3 className="text-yellow-600 font-semibold">
                         Pricing
                     </h3>
                     <p className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
@@ -81,7 +81,7 @@ export default function FUIPricingSectionWithOnePlan() {
                         {
                             features.map((item, idx) => (
                                 <li key={idx} className="flex gap-x-3">
-                                    <div className="flex-none w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                                    <div className="flex-none w-12 h-12 rounded-full bg-yellow-50 text-yellow-600 flex items-center justify-center">
                                         {item.icon}
                                     </div>
                                     <div>
@@ -111,7 +111,7 @@ export default function FUIPricingSectionWithOnePlan() {
                                     ${plan.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
                                 </div>
                             </div>
-                            <button className='mt-4 px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+                            <button className='mt-4 px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700'>
                                 Get Started
                             </button>
                         </div>
@@ -124,7 +124,7 @@ export default function FUIPricingSectionWithOnePlan() {
                                     <li key={idx} className='flex items-center gap-5'>
                                         <svg
                                             xmlns='http://www.w3.org/2000/svg'
-                                            className='h-5 w-5 text-indigo-600'
+                                            className='h-5 w-5 text-yellow-600'
                                             viewBox='0 0 20 20'
                                             fill='currentColor'>
                                             <path

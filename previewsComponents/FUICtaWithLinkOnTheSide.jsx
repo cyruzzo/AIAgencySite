@@ -19,7 +19,7 @@ export default function FUICtaWithLinkOnTheSide() {
                     </p>
                 </div>
                 <div className="flex-none mt-4 md:mt-0">
-                    <a href="javascript:void(0)" className="inline-block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-md hover:shadow-none">
+                    <a href="javascript:void(0)" className="inline-block py-2 px-4 text-white font-medium bg-yellow-600 duration-150 hover:bg-yellow-500 active:bg-yellow-700 rounded-lg shadow-md hover:shadow-none">
                         Learn more
                     </a>
                 </div>

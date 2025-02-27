@@ -27,17 +27,17 @@ export default function FUIPrimaryNewsletter() {
                     <input 
                         type="email"
                         placeholder="Enter your email"
-                        className="text-gray-500 w-full p-3 rounded-md border outline-none focus:border-indigo-600"
+                        className="text-gray-500 w-full p-3 rounded-md border outline-none focus:border-yellow-600"
                     />
                     <button
-                        className="w-full mt-3 px-5 py-3 rounded-md text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 duration-150 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto"
+                        className="w-full mt-3 px-5 py-3 rounded-md text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 duration-150 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-yellow-600 sm:mt-0 sm:ml-3 sm:w-auto"
                     >
                         Subscribe
                     </button>
                 </form>
                 <p className="mt-3 mx-auto text-center max-w-lg text-[15px] text-gray-400">
                     No spam ever, we are care about the protection of your data. 
-                    Read our <a className="text-indigo-600 underline" href="javascript:void(0)"> Privacy Policy </a>
+                    Read our <a className="text-yellow-600 underline" href="javascript:void(0)"> Privacy Policy </a>
                 </p>
             </div>
         </section>

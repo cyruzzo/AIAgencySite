@@ -32,8 +32,8 @@ const NavLink = ({ ...props }) => {
       )}
     >
       <span
-        className={`pl-6 py-0.5 border-l group-hover:border-indigo-500 duration-150 ${
-          isActive ? "border-indigo-500" : "border-transparent"
+        className={`pl-6 py-0.5 border-l group-hover:border-yellow-500 duration-150 ${
+          isActive ? "border-yellow-500" : "border-transparent"
         }`}
       >
         {children}

@@ -75,7 +75,7 @@ export default function FUIBasicFeatureSection() {
                         {
                             features.map((item, idx) => (
                                 <li key={idx} className="space-y-3">
-                                    <div className="w-12 h-12 mx-auto bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center">
+                                    <div className="w-12 h-12 mx-auto bg-yellow-50 text-yellow-600 rounded-full flex items-center justify-center">
                                         {item.icon}
                                     </div>
                                     <h4 className="text-lg text-gray-800 font-semibold">

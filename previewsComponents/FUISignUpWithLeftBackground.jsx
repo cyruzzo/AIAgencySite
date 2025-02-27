@@ -44,7 +44,7 @@ export default function FUISignUpWithLeftBackground() {
                         <img src="https://terabrain.ai/logo.svg" width={150} className="lg:hidden" />
                         <div className="mt-5 space-y-2">
                             <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">Sign up</h3>
-                            <p className="">Already have an account? <a href="javascript:void(0)" className="font-medium text-indigo-600 hover:text-indigo-500">Log in</a></p>
+                            <p className="">Already have an account? <a href="javascript:void(0)" className="font-medium text-yellow-600 hover:text-yellow-500">Log in</a></p>
                         </div>
                     </div>
                     <div className="grid grid-cols-3 gap-x-3">
@@ -103,7 +103,7 @@ export default function FUISignUpWithLeftBackground() {
                             <input
                                 type="text"
                                 required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-yellow-600 shadow-sm rounded-lg"
                             />
                         </div>
                         <div>
@@ -113,7 +113,7 @@ export default function FUISignUpWithLeftBackground() {
                             <input
                                 type="email"
                                 required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-yellow-600 shadow-sm rounded-lg"
                             />
                         </div>
                         <div>
@@ -123,11 +123,11 @@ export default function FUISignUpWithLeftBackground() {
                             <input
                                 type="password"
                                 required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-yellow-600 shadow-sm rounded-lg"
                             />
                         </div>
                         <button
-                            className="w-full px-4 py-2 text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150"
+                            className="w-full px-4 py-2 text-white font-medium bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-600 rounded-lg duration-150"
                         >
                             Create account
                         </button>

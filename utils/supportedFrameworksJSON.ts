@@ -6,7 +6,7 @@ export default [
           <h4 class="text-gray-800 text-xl font-semibold">Team members</h4>
           <p class="mt-2 text-gray-600 text-base sm:text-sm">Give your team members access to manage the system.</p>
       </div>
-      <a href="javascript:void(0)" class="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg sm:mt-0">
+      <a href="javascript:void(0)" class="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 rounded-lg sm:mt-0">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
           </svg>
@@ -57,7 +57,7 @@ export default () => (
                 <h4 className="text-gray-800 text-xl font-semibold">Team members</h4>
                 <p className="mt-2 text-gray-600 text-base sm:text-sm">Give your team members access to manage the system.</p>
             </div>
-            <a href="javascript:void(0)" className="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg sm:mt-0">
+            <a href="javascript:void(0)" className="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 rounded-lg sm:mt-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
@@ -91,7 +91,7 @@ export default () => (
         <h4 class="text-gray-800 text-xl font-semibold">Team members</h4>
         <p class="mt-2 text-gray-600 text-base sm:text-sm">Give your team members access to manage the system.</p>
       </div>
-      <a href="javascript:void(0)" class="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg sm:mt-0">
+      <a href="javascript:void(0)" class="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 rounded-lg sm:mt-0">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" :stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
         </svg>
@@ -177,7 +177,7 @@ export default {
       <h4 class="text-gray-800 text-xl font-semibold">Team members</h4>
       <p class="mt-2 text-gray-600 text-base sm:text-sm">Give your team members access to manage the system.</p>
     </div>
-    <a href="javascript:void(0)" class="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg sm:mt-0">
+    <a href="javascript:void(0)" class="inline-flex items-center justify-center gap-1 py-2 px-3 mt-2 font-medium text-sm text-center text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 rounded-lg sm:mt-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
       </svg>

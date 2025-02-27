@@ -46,7 +46,7 @@ export default function FUIPricingSectionWithTwoPlans() {
             <div className="absolute top-0 w-full h-[521px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.17) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div>
             <div className="max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
                 <div className='relative max-w-xl mx-auto space-y-3 px-4 sm:text-center sm:px-0'>
-                    <h3 className="text-indigo-600 font-semibold">
+                    <h3 className="text-yellow-600 font-semibold">
                         Pricing
                     </h3>
                     <p className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
@@ -63,7 +63,7 @@ export default function FUIPricingSectionWithTwoPlans() {
                         plans.map((item, idx) => (
                             <div key={idx} className={`relative flex-1 flex items-stretch flex-col mt-6 sm:mt-0 sm:rounded-xl sm:max-w-md ${item.isMostPop ? "bg-white shadow-lg sm:border" : ""}`}>
                                 <div className="p-4 py-8 space-y-4 border-b md:p-8">
-                                    <span className='text-indigo-600 font-medium'>
+                                    <span className='text-yellow-600 font-medium'>
                                         {item.name}
                                     </span>
                                     <div className='text-gray-800 text-3xl font-semibold'>
@@ -72,7 +72,7 @@ export default function FUIPricingSectionWithTwoPlans() {
                                     <p>
                                         {item.desc}
                                     </p>
-                                    <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+                                    <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700'>
                                         Get Started
                                     </button>
                                 </div>
@@ -85,7 +85,7 @@ export default function FUIPricingSectionWithTwoPlans() {
                                             <li key={idx} className='flex items-center gap-5'>
                                                 <svg
                                                     xmlns='http://www.w3.org/2000/svg'
-                                                    className='h-5 w-5 text-indigo-600'
+                                                    className='h-5 w-5 text-yellow-600'
                                                     viewBox='0 0 20 20'
                                                     fill='currentColor'>
                                                     <path

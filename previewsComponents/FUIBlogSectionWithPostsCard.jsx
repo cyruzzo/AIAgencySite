@@ -51,10 +51,10 @@ export default function FUIBlogSectionWithPostsCard() {
                             <input
                                 type="text"
                                 placeholder="Enter your email"
-                                className="w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg sm:max-w-xs"
+                                className="w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-yellow-600 shadow-sm rounded-lg sm:max-w-xs"
                             />
                         </div>
-                        <button className="block w-full mt-3 py-3 px-4 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow sm:mt-0 sm:w-auto">
+                        <button className="block w-full mt-3 py-3 px-4 font-medium text-sm text-center text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 active:shadow-none rounded-lg shadow sm:mt-0 sm:w-auto">
                             Subscribe
                         </button>
                     </form>
@@ -66,8 +66,8 @@ export default function FUIBlogSectionWithPostsCard() {
                                 <a href={items.href}>
                                     <img src={items.img} loading="lazy" alt={items.title} className="w-full rounded-lg" />
                                     <div className="mt-3 space-y-2">
-                                        <span className="block text-indigo-600 text-sm">{items.date}</span>
-                                        <h3 className="text-lg text-gray-800 duration-150 group-hover:text-indigo-600 font-semibold">
+                                        <span className="block text-yellow-600 text-sm">{items.date}</span>
+                                        <h3 className="text-lg text-gray-800 duration-150 group-hover:text-yellow-600 font-semibold">
                                             {items.title}
                                         </h3>
                                         <p className="text-gray-600 text-sm duration-150 group-hover:text-gray-800">{items.desc}</p>

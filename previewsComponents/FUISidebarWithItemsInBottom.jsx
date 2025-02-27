@@ -114,7 +114,7 @@ export default function FUISidebarWithItemsInBottom() {
                                         <span className="block text-gray-700 text-sm font-semibold">Alivika tony</span>
                                         <a
                                             href="javascript:void(0)"
-                                            className="block mt-px text-gray-600 hover:text-indigo-600 text-xs"
+                                            className="block mt-px text-gray-600 hover:text-yellow-600 text-xs"
                                         >
                                             View profile
                                         </a>

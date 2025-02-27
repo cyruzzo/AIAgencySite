@@ -31,10 +31,10 @@ export default function FUIVerticalTabs() {
         {tabItems.map((item, idx) => (
           <Tabs.Trigger
             key={idx}
-            className="group outline-none px-1.5 border-l-2 border-white text-gray-500 data-[state=active]:border-indigo-600 data-[state=active]:text-indigo-600"
+            className="group outline-none px-1.5 border-l-2 border-white text-gray-500 data-[state=active]:border-yellow-600 data-[state=active]:text-yellow-600"
             value={item}
           >
-            <div className="py-1.5 px-3 rounded-lg duration-150 group-hover:text-indigo-600 group-hover:bg-gray-100 font-medium">
+            <div className="py-1.5 px-3 rounded-lg duration-150 group-hover:text-yellow-600 group-hover:bg-gray-100 font-medium">
               {item}
             </div>
           </Tabs.Trigger>
@@ -55,7 +55,7 @@ export default function FUIVerticalTabs() {
         </svg>
         <select
           value={selectedTab}
-          className="py-2 px-3 w-full bg-transparent appearance-none outline-none border rounded-lg shadow-sm focus:border-indigo-600 text-sm"
+          className="py-2 px-3 w-full bg-transparent appearance-none outline-none border rounded-lg shadow-sm focus:border-yellow-600 text-sm"
           onChange={(e) => setSelectedTab(e.target.value)}
         >
           {tabItems.map((item, idx) => (

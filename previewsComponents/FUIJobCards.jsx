@@ -95,7 +95,7 @@ export default function FUIJobCards() {
                                         {item.company_icon}
                                     </div>
                                     <div>
-                                        <span className="block text-sm text-indigo-600 font-medium">{item.company_name}</span>
+                                        <span className="block text-sm text-yellow-600 font-medium">{item.company_name}</span>
                                         <h3 className="text-base text-gray-800 font-semibold mt-1">{item.job_title}</h3>
                                     </div>
                                 </div>

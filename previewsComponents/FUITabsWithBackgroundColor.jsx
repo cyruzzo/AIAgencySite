@@ -30,7 +30,7 @@ export default function FUITabsWithBackgroundColor() {
         {tabItems.map((item, idx) => (
           <Tabs.Trigger
             key={idx}
-            className="data-[state=active]:bg-white data-[state=active]:text-indigo-600 data-[state=active]:shadow-sm py-1.5 px-3 rounded-lg duration-150 text-gray-500 hover:text-indigo-600 hover:bg-white active:bg-white/50 font-medium"
+            className="data-[state=active]:bg-white data-[state=active]:text-yellow-600 data-[state=active]:shadow-sm py-1.5 px-3 rounded-lg duration-150 text-gray-500 hover:text-yellow-600 hover:bg-white active:bg-white/50 font-medium"
             value={item}
           >
             {item}
@@ -52,7 +52,7 @@ export default function FUITabsWithBackgroundColor() {
         </svg>
         <select
           value={selectedTab}
-          className="py-2 px-3 w-full bg-transparent appearance-none outline-none border rounded-lg shadow-sm focus:border-indigo-600 text-sm"
+          className="py-2 px-3 w-full bg-transparent appearance-none outline-none border rounded-lg shadow-sm focus:border-yellow-600 text-sm"
           onChange={(e) => setSelectedTab(e.target.value)}
         >
           {tabItems.map((item, idx) => (

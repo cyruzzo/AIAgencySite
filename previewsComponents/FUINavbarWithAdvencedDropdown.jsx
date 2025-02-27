@@ -140,7 +140,7 @@ export default function FUINavbarWithAdvencedDropdown() {
                                         <li key={idx}>
                                             {
                                                 item.isDrapdown ? (
-                                                    <button className="w-full flex items-center justify-between gap-1 text-gray-700 hover:text-indigo-600"
+                                                    <button className="w-full flex items-center justify-between gap-1 text-gray-700 hover:text-yellow-600"
                                                         onClick={() => setDrapdownState({ idx, isActive: !drapdownState.isActive })}
                                                     >
                                                         {item.title}
@@ -158,7 +158,7 @@ export default function FUINavbarWithAdvencedDropdown() {
                                                         }
                                                     </button>
                                                 ) : (
-                                                    <a href={item.path} className="block text-gray-700 hover:text-indigo-600">
+                                                    <a href={item.path} className="block text-gray-700 hover:text-yellow-600">
                                                         {item.title}
                                                     </a>
                                                 )
@@ -169,16 +169,16 @@ export default function FUINavbarWithAdvencedDropdown() {
                                                         <ul className='max-w-screen-xl mx-auto grid items-center gap-6 md:p-8 md:grid-cols-2 lg:grid-cols-3'>
                                                             {item?.navs.map((dropdownItem, idx) => (
                                                                 <li key={idx}>
-                                                                    <p className="text-indigo-600 text-sm">{dropdownItem.label}</p>
+                                                                    <p className="text-yellow-600 text-sm">{dropdownItem.label}</p>
                                                                     <ul className='mt-5 space-y-6'>
                                                                         {dropdownItem.navs.map((navItem, idx) => (
                                                                             <li key={idx} className="group">
                                                                                 <a href={navItem.path} className='flex gap-3 items-center'>
-                                                                                    <div className='w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center duration-150 group-hover:bg-indigo-600 group-hover:text-white md:w-14 md:h-14'>
+                                                                                    <div className='w-12 h-12 rounded-full bg-yellow-50 text-yellow-600 flex items-center justify-center duration-150 group-hover:bg-yellow-600 group-hover:text-white md:w-14 md:h-14'>
                                                                                         {navItem.icon}
                                                                                     </div>
                                                                                     <div>
-                                                                                        <span className="text-gray-800 duration-200 group-hover:text-indigo-600 text-sm font-medium md:text-base">{navItem.title}</span>
+                                                                                        <span className="text-gray-800 duration-200 group-hover:text-yellow-600 text-sm font-medium md:text-base">{navItem.title}</span>
                                                                                         <p className='text-sm text-gray-600 group-hover:text-gray-800 mt-1'>{navItem.desc}</p>
                                                                                     </div>
                                                                                 </a>
@@ -197,12 +197,12 @@ export default function FUINavbarWithAdvencedDropdown() {
                             }
                             <div className='flex-1 items-center justify-end gap-x-6 space-y-3 md:flex md:space-y-0'>
                                 <li>
-                                    <a href="javascript:void(0)" className="block py-3 text-center text-gray-700 hover:text-indigo-600 border rounded-lg md:border-none">
+                                    <a href="javascript:void(0)" className="block py-3 text-center text-gray-700 hover:text-yellow-600 border rounded-lg md:border-none">
                                         Log in
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)" className="block py-3 px-4 font-medium text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow md:inline">
+                                    <a href="javascript:void(0)" className="block py-3 px-4 font-medium text-center text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 active:shadow-none rounded-lg shadow md:inline">
                                         Sign in
                                     </a>
                                 </li>

@@ -48,7 +48,7 @@ export default function FUIPaymentCardsRadioGroup() {
                         <li key={idx}>
                             <label htmlFor={item.name} className="block relative">
                                 <input id={item.name} type="radio" defaultChecked={idx == 1 ? true : false} name="payment" className="sr-only peer" />
-                                <div className="w-full flex gap-x-3 items-start p-4 cursor-pointer rounded-lg border bg-white shadow-sm ring-indigo-600 peer-checked:ring-2 duration-200">
+                                <div className="w-full flex gap-x-3 items-start p-4 cursor-pointer rounded-lg border bg-white shadow-sm ring-yellow-600 peer-checked:ring-2 duration-200">
                                     <div className="flex-none">
                                         {item.icon}
                                     </div>
@@ -61,7 +61,7 @@ export default function FUIPaymentCardsRadioGroup() {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="absolute top-4 right-4 flex-none flex items-center justify-center w-4 h-4 rounded-full border peer-checked:bg-indigo-600 text-white peer-checked:text-white duration-200">
+                                <div className="absolute top-4 right-4 flex-none flex items-center justify-center w-4 h-4 rounded-full border peer-checked:bg-yellow-600 text-white peer-checked:text-white duration-200">
                                     <svg className="w-2.5 h-2.5" viewBox="0 0 12 10"><polyline fill="none" stroke-width="2px" stroke="currentColor" stroke-dasharray="16px" points="1.5 6 4.5 9 10.5 1"></polyline></svg>
                                 </div>
                             </label>

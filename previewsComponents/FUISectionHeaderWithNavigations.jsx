@@ -46,10 +46,10 @@ export default function FUISectionHeaderWithNavigations() {
                     {
                         navigation.map((item, idx) => (
                             // Replace [idx == 0] with [window.location.pathname == item.path] or create your own logic
-                            <li key={idx} className={`py-2 border-b-2 ${idx == 0 ? "border-indigo-600 text-indigo-600" : "border-white text-gray-500"}`}>
+                            <li key={idx} className={`py-2 border-b-2 ${idx == 0 ? "border-yellow-600 text-yellow-600" : "border-white text-gray-500"}`}>
                                 <a
                                     href={item.href}
-                                    className="py-2.5 px-4 rounded-lg duration-150 text-sm hover:text-indigo-600 hover:bg-gray-100 active:bg-gray-200 font-medium"
+                                    className="py-2.5 px-4 rounded-lg duration-150 text-sm hover:text-yellow-600 hover:bg-gray-100 active:bg-gray-200 font-medium"
                                 >
                                     {item.name}
                                 </a>
