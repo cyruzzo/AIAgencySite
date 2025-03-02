@@ -98,10 +98,19 @@ export default async () => {
       <video className="w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain mb-10" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
         <source src="/demo.mp4" type="video/mp4" />
       </video>
-      <div className="max-w-xl mx-auto space-y-4 text-center mt-10 pt-10">
+      <div className='relative flex flex-col items-center justify-center'>
+      <div className="max-w-xl mx-auto space-y-4 text-center mt-10 pt-10" style={{height: '30vh'}}>
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
         <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
       </div>
+      <spline-viewer url="https://prod.spline.design/zY6WC1fMdzg8IVNF/scene.splinecode" style={{ 
+        position: 'absolute',
+        top: '0',
+        right: '0',
+        width: '50%',
+      }}></spline-viewer>
+      </div>
+
 
       <FUIIntegrationsCard integrations={crmIntegrations} title="Agents that work with your systems" desc="Connect your CRM to your workflow. Get the best of CRM integrated with your workflow." />
       <FUIIntegrationsCard integrations={integrations} title="Agents that can communicate" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
