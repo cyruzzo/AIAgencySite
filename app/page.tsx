@@ -88,14 +88,14 @@ export default async () => {
         top: '0',
         right: '0',
         width: '50%',
-      }} url="https://prod.spline.design/zwAkmuAFIRRf7Rbj/scene.splinecode"></spline-viewer>
+      }} url="https://prod.spline.design/zwAkmuAFIRRf7Rbj/scene.splinecode" class='lg:block md:hidden md-hidden'></spline-viewer>
         </div>   
 
       <Features />
       <spline-viewer url="https://prod.spline.design/9Hk-UJX7Uz9ixs6B/scene.splinecode" style={{
         position: 'relative',
       }}></spline-viewer>
-      <video className="w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain mb-10" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
+      <video className="md:w-full lg:w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain mb-10" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
         <source src="/demo.mp4" type="video/mp4" />
       </video>
       <div className='relative flex flex-col items-center justify-center'>
@@ -103,7 +103,7 @@ export default async () => {
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
         <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
       </div>
-      <spline-viewer url="https://prod.spline.design/zY6WC1fMdzg8IVNF/scene.splinecode" style={{ 
+      <spline-viewer url="https://prod.spline.design/zY6WC1fMdzg8IVNF/scene.splinecode" class='xl:block lg:hidden md:hidden md-hidden' style={{ 
         position: 'absolute',
         top: '0',
         right: '0',
