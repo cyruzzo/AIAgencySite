@@ -15,6 +15,14 @@ import FUIStepsWithTitlesOnTheBottom from '../previewsComponents/FUIStepsWithTit
 import { IconBrandGoogle, IconBrandOffice, IconBrandTelegram, IconMailAi, IconUsersGroup } from '@tabler/icons-react';
 import Script from 'next/script';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'spline-viewer': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+    }
+  }
+}
+
 export default async () => {
   const integrations = [
     {
@@ -70,13 +78,27 @@ export default async () => {
         {`window.dataLayer = window.dataLayer || [];   function gtag()
         {        dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2WTSRB0ZG2'); `}
       </Script>
-
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.72/build/spline-viewer.js"></script>
+          
+      <div className='relative'>
       <Hero />
-      <video className="w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
+        
+      <spline-viewer style={{ 
+        position: 'absolute',
+        top: '0',
+        right: '0',
+        width: '50%',
+      }} url="https://prod.spline.design/zwAkmuAFIRRf7Rbj/scene.splinecode"></spline-viewer>
+        </div>   
+
+      <Features />
+      <spline-viewer url="https://prod.spline.design/9Hk-UJX7Uz9ixs6B/scene.splinecode" style={{
+        position: 'relative',
+      }}></spline-viewer>
+      <video className="w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain mb-10" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
         <source src="/demo.mp4" type="video/mp4" />
       </video>
-      <Features />
-      <div className="max-w-xl mx-auto space-y-4 text-center mt-10">
+      <div className="max-w-xl mx-auto space-y-4 text-center mt-10 pt-10">
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
         <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
       </div>

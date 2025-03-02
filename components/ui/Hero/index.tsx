@@ -5,12 +5,12 @@ import HeroBgGradientClient from './HeroBgGradient.Client';
 export default () => {
   return (
     <section className="custom-screen mt-20">
-      <div className="relative z-10 max-w-2xl mx-auto space-y-4 text-center">
+      <div className="relative z-10 max-w-2xl mx-auto space-y-4 text-center" style={{pointerEvents: 'none'}}>
         <h1 className="text-5xl heading my-7 py-7">
-          <b className="bg-yellow-500 heading">AI Agents </b>
+          <b className="bg-orange-500 heading">AI Agents </b>
           to Empower Your Business
         </h1>
-        <p className="text-zinc-400 py-7 my-7">Be more productive with our AI-powered automation platform. Automate your flows and processes with ease. Integrations across CRMs, Email, Calendar, File Sharing Platforms, and More.</p>
+        <p className="text-white py-7 my-7 opacity-50" style={{pointerEvents: 'none'}}>Be more productive with our AI-powered automation platform. Automate your flows and processes with ease. Integrations across CRMs, Email, Calendar, File Sharing Platforms, and More.</p>
         <div className="flex flex-wrap items-center justify-center gap-3">
           <LinkItem href="https://app.terabrain.ai" variant="shiny" className="inline-block w-full hover:bg-zinc-700 sm:w-auto">
           Start 30-day trial
