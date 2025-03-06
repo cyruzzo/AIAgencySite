@@ -11,16 +11,18 @@ export default () => (
         Let's start together and make your ideas come to life with our AI-powered automation platform. Automate your flows and processes with ease.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
-        <LinkItem
+        {/* <LinkItem
 href='https://app.terabrain.ai'
           variant="shiny"
           className="inline-block w-full hover:bg-zinc-700 sm:w-auto"
         >
           Get started
-        </LinkItem>
+        </LinkItem> */}
         <LinkItem
-          href="mailto:info@altama.it"
+          href="mailto:info@linegon.com"
           target="_blank"
+          variant="shiny"
+
           className="inline-block w-full sm:w-auto"
         >
           <IconMail className="inline mr-2" />

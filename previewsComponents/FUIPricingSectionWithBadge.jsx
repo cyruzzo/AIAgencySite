@@ -44,15 +44,15 @@ export default function FUIPricingSectionWithBadge() {
               <div className="p-8 space-y-4 border-b">
                 <span className="text-yellow-600 font-medium">{item.name}</span>
 
-                <div className="text-zinc-400 text-3xl font-semibold">
+                <div className="text-zinc-400 text-3xl font-semibold filter blur-sm">
                   € {item.price} <span className="text-xl text-zinc-100 font-normal">/mo</span>
                   {item.clearPrice && <div className="text-yellow-400 text-xl font-semibold line-through float-right transform rotate-45">€ {item.clearPrice}</div>}
                 </div>
                 <p>{item.desc}</p>
                 <br/>
                 <a className="px-3 py-3 block text-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700"
-                href='https://app.terabrain.ai'
-                >Start 30-day trial</a>
+                href='mailto://info@linegon.com'
+                >Request 30-day trial</a>
               </div>
               <ul className="p-8 space-y-3">
                 <li className="pb-2 text-zinc-400 font-medium">
@@ -72,7 +72,7 @@ export default function FUIPricingSectionWithBadge() {
         </div>
         <p className="text-center text-zinc-400 m-5 p-5">"Limited Early Access" pricing available for early adopters. Contact us for enterprise solutions and custom integrations.</p>
         <h4 className="text-center  my-5">If you are fearful...</h4>
-        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 block text-center" href='https://app.terabrain.ai'>Try with Free plan</a>
+        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 block text-center" href='mailto://info@linegon.com'>Request a demo</a>
       </div>
     </section>
   );
