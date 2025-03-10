@@ -60,7 +60,7 @@ export default function RootLayout({
         <meta name="msvalidate.01" content="D00EDAC78FB47DDD869F2C18FD8A6572" />
         <meta name="robots" content="index, follow" />
       </head>
-      <body className={inter.className}>
+      <body className={'overflow-x-hidden ' + inter.className}>
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -10,8 +10,9 @@ import FUILogoGridWithTowRows from '../previewsComponents/FUILogoGridWithTowRows
 import FUIBlogSectionWithPostsCard from '../previewsComponents/FUIBlogSectionWithPostsCard';
 import FUITestimonialWithBackgroundColor from '../previewsComponents/FUITestimonialWithBackgroundColor';
 import FUIBasicSteps from '../previewsComponents/FUIBasicSteps';
-import FUIStatsOnTheSide from '../previewsComponents/FUIStatsOnTheSide';
-import FUIStepsWithTitlesOnTheBottom from '../previewsComponents/FUIStepsWithTitlesOnTheBottom';
+import FUILogoGrid from '../previewsComponents/FUILogoGrid';
+import FUIImageFollowMouse from '../previewsComponents/FUIImageFollowMouse';
+
 import { IconBrandGoogle, IconBrandOffice, IconBrandTelegram, IconMailAi, IconUsersGroup } from '@tabler/icons-react';
 import Script from 'next/script';
 
@@ -72,7 +73,7 @@ export default async () => {
   ];
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2WTSRB0ZG2"></Script>
       <Script>
         {`window.dataLayer = window.dataLayer || [];   function gtag()
@@ -103,6 +104,7 @@ export default async () => {
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
         <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
       </div>
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.75/build/spline-viewer.js"></script>
       <spline-viewer url="https://prod.spline.design/zY6WC1fMdzg8IVNF/scene.splinecode" class='xl:block lg:hidden md:hidden md-hidden' style={{ 
         position: 'absolute',
         top: '0',
@@ -111,16 +113,46 @@ export default async () => {
       }}></spline-viewer>
       </div>
 
+      <div className="flex items-center justify-center">
+      <FUIImageFollowMouse s="/integrations.png" className="m-auto w-1/3 mb-0 pulse" />
+
+      </div>
+
+      <div className='relative'>
+        <div  className='absolute left-0 w-1/3 md:hidden lg:block top-[40%]'>
+      <spline-viewer url="https://prod.spline.design/WgZXordciaDpmqxh/scene.splinecode"></spline-viewer>
+      </div>
 
       <FUIIntegrationsCard integrations={crmIntegrations} title="Agents that work with your systems" desc="Connect your CRM to your workflow. Get the best of CRM integrated with your workflow." />
       <FUIIntegrationsCard integrations={integrations} title="Agents that can communicate" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
       <FUIIntegrationsCard integrations={appIntegrations} title="Connect seamlessly to your systems" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
-
+</div>
+      <div className='relative flex items-center justify-center m-auto w-auto gap-10 my-6'>
+        <div>
+          <h2 className="text-4xl heading">Supported Frameworks</h2>
+          <p className="text-zinc-400">Our Agents Army is built to fulfill your needs and can be integrated with your favorite apps,<br/>creating a seamless experience.</p>
+        </div>
+      <FUILogoGrid 
+      className='w-1/3'
+      style={{right: '-5%'}}
+      imageUrls={[
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png',
+        'https://store-images.s-microsoft.com/image/apps.30616.14374512070697751.fcbc53c2-4843-4c59-aa6a-206ec85835b5.915cc067-8e3d-468b-bc6b-37c7c8d35d93',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg/1280px-Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg.png',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png',
+        'https://www.computerhope.com/issues/pictures/google-drive-logo.png',
+        'https://community.suitecrm.com/uploads/default/original/1X/50fde6396ff43ec7974c3b4a0c7d1eae133f1ab4.png',
+        'https://images.squarespace-cdn.com/content/v1/538f7ebce4b0cff6fb36b092/9b1203f8-7398-453a-ac8c-22c5d4f9c394/DayliteLogotypeBlack_1000x282.png',
+        'https://www.liveagent.com/app/uploads/2020/11/vtiger_logo-185x185.png',
+        'https://brandlogos.net/wp-content/uploads/2021/02/bing-logo.png'
+      ]}
+      />
+      </div>
       <div id="pricing">
         <FUIPricingSectionWithBadge />
       </div>
       <FUITeamWithLargeAvatars />
       <CTA />
-    </>
+    </div>
   );
 };

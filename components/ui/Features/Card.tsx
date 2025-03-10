@@ -8,10 +8,12 @@ export default ({
   icon,
   title,
   desc,
+  giantIcon
 }: {
   icon: ReactNode;
   title: string;
   desc: string;
+  giantIcon?: boolean;
 }) => {
   const cardRef = useRef<HTMLLIElement>(null);
   const shadowRef = useRef<HTMLDivElement>(null);
@@ -40,11 +42,22 @@ export default ({
       className="relative z-0 group overflow-hidden h-full border border-zinc-800 rounded-xl bg-[radial-gradient(500px_circle_at_var(--cursor-x)_var(--cursor-y),#FF9800,transparent,transparent_70%)]"
     >
       <div className="space-y-3 relative z-10 p-5 bg-[linear-gradient(180deg,_rgba(27,_27,_20,_0.60)_0%,_rgba(27,_27,_20,_0.00)_100%)]">
-        <div className="text-gray-500 w-9 h-9 rounded-full bg-[linear-gradient(180deg,_rgba(42,_42,_39,_0.68)_0%,_rgba(42,_42,_30,_0.00)_100%)] flex items-center justify-center border border-zinc-700">
+        {
+          giantIcon ? (
+            <div className="text-gray-500 flex items-center justify-center">
+              {icon}
+            </div>
+          ) : (
+<>
+<div className="text-gray-500 w-9 h-9 rounded-full bg-[linear-gradient(180deg,_rgba(42,_42,_39,_0.68)_0%,_rgba(42,_42,_30,_0.00)_100%)] flex items-center justify-center border border-zinc-700">
           {icon}
         </div>
         <h3 className="text-zinc-100 font-semibold">{title}</h3>
-        <p className="text-zinc-300">{desc}</p>
+        <p className="text-zinc-300">{desc}</p></>
+          )
+        }
+        
+        
         <div>
           <Image
             src={featureCover}
