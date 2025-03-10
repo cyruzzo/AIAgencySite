@@ -95,11 +95,11 @@ export default async () => {
       <spline-viewer url="https://prod.spline.design/9Hk-UJX7Uz9ixs6B/scene.splinecode" style={{
         position: 'relative',
       }}></spline-viewer>
-      <video className="md:w-full lg:w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain mb-10" autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
+      <video className="md:w-full lg:w-1/2 m-auto rounded-3xl mt-7 border-2 object-fit-contain mb-10" controls autoPlay loop muted style={{ height: '55vh', objectFit: 'cover' }}>
         <source src="/demo.mp4" type="video/mp4" />
       </video>
       <div className='relative flex flex-col items-center justify-center'>
-      <div className="max-w-xl mx-auto space-y-4 text-center mt-10 pt-10" style={{height: '30vh'}}>
+      <div className="max-w-xl mx-auto space-y-4 text-center mt-10 pt-10" style={{height: '30vh'}} id="about">
         <h2 className="text-4xl heading">Use your favorite integrations</h2>
         <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
       </div>

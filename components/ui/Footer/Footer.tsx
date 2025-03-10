@@ -65,6 +65,11 @@ export default () => (
           </ul>
           <ul className="space-y-2">
             <li className="text-zinc-100 font-medium">TeraBrain</li>
+            <li                 className="text-sm text-zinc-400 hover:text-zinc-100 duration-200">
+              <b>Linegon SRL</b><br/>
+              VAT ID: 05115530230<br/>
+              Via Adriano Garbinin 15, Verona (VR), Italy
+            </li>
             {marsNavigation.map((item, idx) => (
               <li
                 key={idx}

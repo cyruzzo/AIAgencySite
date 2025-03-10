@@ -14,7 +14,7 @@ export default () => {
 
   // Replace javascript:void(0) paths with your paths
   const navigation = [
-    { title: "About", path: "/" },
+    { title: "About", path: "#about" },
     {
       title: "Pricing",
       path: "#pricing"
