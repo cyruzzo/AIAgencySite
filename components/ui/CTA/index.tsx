@@ -12,10 +12,10 @@ export default () => (
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <LinkItem
-href='https://terabrains.io'
+href='https://terabrain.ai'
           className="inline-block w-full sm:w-auto"
         >
-          Discover Terabrains
+          Discover Terabrain
         </LinkItem>
       </div>
     </div>

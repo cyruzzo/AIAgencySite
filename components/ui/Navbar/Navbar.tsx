@@ -15,7 +15,7 @@ export default () => {
   // Replace javascript:void(0) paths with your paths
   const navigation = [
     { title: "Products", path: "#products" },
-    { title: "Terabrains", path: "https://terabrains.io" },
+    { title: "Terabrain", path: "https://terabrain.ai" },
   ];
 
   useEffect(() => {

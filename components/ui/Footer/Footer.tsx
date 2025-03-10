@@ -6,7 +6,7 @@ import BgGradient from "./BgGradient";
 import { IconBrandProducthunt } from "@tabler/icons-react";
 
 const navigation = [
-  { name: "Terabrains", href: "https://terabrains.io" },
+  { name: "Terabrain", href: "https://terabrain.ai" },
 /*   { name: "License", href: "/license" },
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "App", href: "/app" }, */
@@ -65,6 +65,11 @@ export default () => (
           </ul>
           <ul className="space-y-2">
             <li className="text-zinc-100 font-medium">Linegon</li>
+            <li                 className="text-sm text-zinc-400 hover:text-zinc-100 duration-200">
+              <b>Linegon SRL</b><br/>
+              VAT ID: 05115530230<br/>
+              Via Adriano Garbinin 15, Verona (VR), Italy
+            </li>
             {marsNavigation.map((item, idx) => (
               <li
                 key={idx}
@@ -82,7 +87,7 @@ export default () => (
         <div className="text-zinc-300 py-8">
           &copy; {
             new Date().getFullYear()
-          } Linegon. All rights reserved.
+          } Linegon. All rights reserved.<br/>
         </div>
       </div>
     </div>

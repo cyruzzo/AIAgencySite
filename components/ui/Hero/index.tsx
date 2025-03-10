@@ -14,7 +14,7 @@ export default () => {
           Follow the line of AI agents that will help you automate your workflow
         </p>
         <div className="flex flex-wrap items-center justify-center gap-3">
-          <LinkItem href="https://terabrains.io" variant="shiny" className="inline-block w-full hover:bg-zinc-700 sm:w-auto">
+          <LinkItem href="https://terabrain.ai" variant="shiny" className="inline-block w-full hover:bg-zinc-700 sm:w-auto">
           Discover our products
           </LinkItem>
 {/*           <LinkItem href="https://github.com/MarsX-dev/serviceautomate" variant="shiny" className="inline-flex w-full justify-center items-center gap-x-2 border border-zinc-800 hover:border-zinc-600 bg-zinc-950 hover:text-zinc-100 duration-200 sm:w-auto" target="_blank">

@@ -16,14 +16,14 @@ export default () => {
       <div className="custom-screen relative z-10">
         <div className="max-w-xl mx-auto space-y-4 text-center mt-10">
           <h2 className="text-4xl heading">
-            Discover our best product: <b className="bg-indigo-500 heading">Terabrains ™ </b>
+            Discover our best product: <b className="bg-indigo-500 heading">Terabrain ™ </b>
           </h2>
-          <p className="text-zinc-400">Terabrains is a platform that enables you to create AI agents that can automate your workflow. Terabrains can be used to automate tasks, create workflows, and integrate with your favorite tools.</p>
+          <p className="text-zinc-400">Terabrain is a platform that enables you to create AI agents that can automate your workflow. Terabrain can be used to automate tasks, create workflows, and integrate with your favorite tools.</p>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-3 mt-5">
-          <LinkItem href="https://terabrains.io" className="inline-block w-full sm:w-auto">
-            Discover Terabrains ™
+          <LinkItem href="https://terabrain.ai" className="inline-block w-full sm:w-auto">
+            Discover Terabrain ™
           </LinkItem>
         </div>
 
