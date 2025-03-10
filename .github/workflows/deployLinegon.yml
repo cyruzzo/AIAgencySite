@@ -1,10 +1,10 @@
-name: Deploy Next.js to terabrain.ai
+name: Deploy Next.js to Linegon.com
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - linegon
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,7 +35,7 @@ jobs:
           aws-region: eu-west-1
 
       - name: Deploy to S3
-        run: aws s3 sync ./out s3://serviceautomate-com-website --delete
+        run: aws s3 sync ./out s3://linegonwebsite --delete
       
       - name: Invalidate CloudFront cache
-        run: aws cloudfront create-invalidation --distribution-id E3G3IXQZM64FUG --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id EVW21JIAJE2VX --paths "/*"
