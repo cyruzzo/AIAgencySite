@@ -12,10 +12,11 @@ export default () => (
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <LinkItem
-href='https://terabrain.ai'
+href='https://outlook.office.com/owa/calendar/LinegonSRL@linegon.com/bookings/s/V3ZqIVPSfESLQQWegLVh3A2?ismsaljsauthenabled'
           className="inline-block w-full sm:w-auto"
+          variant="shiny"
         >
-          Discover Terabrain
+          Book a demo
         </LinkItem>
       </div>
     </div>
