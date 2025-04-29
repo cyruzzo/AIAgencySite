@@ -72,7 +72,7 @@ export default function FUIPricingSectionWithBadge() {
         </div>
         <p className="text-center text-zinc-400 m-5 p-5">"Limited Early Access" pricing available for early adopters. Contact us for enterprise solutions and custom integrations.</p>
         <h4 className="text-center  my-5">If you are fearful...</h4>
-        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 block text-center" href='mailto://info@linegon.com'>Request a demo</a>
+        <a className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 block text-center" href='https://outlook.office.com/owa/calendar/LinegonSRL@linegon.com/bookings/s/V3ZqIVPSfESLQQWegLVh3A2?ismsaljsauthenabled'>Request a demo</a>
       </div>
     </section>
   );

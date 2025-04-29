@@ -11,13 +11,13 @@ export default () => (
         Let's start together and make your ideas come to life with our AI-powered automation platform. Automate your flows and processes with ease.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-3">
-        {/* <LinkItem
-href='https://app.terabrain.ai'
+        <LinkItem
+href='https://outlook.office.com/owa/calendar/LinegonSRL@linegon.com/bookings/s/V3ZqIVPSfESLQQWegLVh3A2?ismsaljsauthenabled'
           variant="shiny"
           className="inline-block w-full hover:bg-zinc-700 sm:w-auto"
         >
-          Get started
-        </LinkItem> */}
+          Book a demo
+        </LinkItem>
         <LinkItem
           href="mailto:info@linegon.com"
           target="_blank"
@@ -26,7 +26,7 @@ href='https://app.terabrain.ai'
           className="inline-block w-full sm:w-auto"
         >
           <IconMail className="inline mr-2" />
-          Contact us
+          Mail us
         </LinkItem>
       </div>
     </div>
