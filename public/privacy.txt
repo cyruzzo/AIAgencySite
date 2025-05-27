@@ -1,0 +1,57 @@
+Privacy Policy
+Last updated: 2025-05-27
+
+This Privacy Policy explains how our application ("the App") collects, uses, stores, and protects personal information when users connect their Google account and authorize access to services such as Google Drive and Google Calendar.
+
+1. Information We Collect
+When you authorize our App to access your Google account, we may access certain data based on the permissions you grant, including:
+
+Google Calendar Events: to read, create, or update calendar events upon your request.
+
+Google Drive Files: to read, create, or modify files as required by your AI agent.
+
+2. How We Use Your Data
+Data accessed from Google services is used solely to provide the features explicitly requested by you, such as:
+
+Allowing AI agents to analyze or manage files and events on your behalf.
+
+Enabling automation or planning tasks using your calendar or documents.
+
+We do not sell, share, or use your data for advertising or any unrelated purpose.
+
+3. Data Retention
+Data retrieved from your Google account is not permanently stored on our servers unless strictly necessary for fulfilling a requested feature.
+
+When temporary storage is required, the data is deleted after the task is completed or after a short period.
+
+4. Data Sharing
+We do not share your personal data with third parties, except in the following situations:
+
+To comply with legal obligations or government requests.
+
+To protect the rights, property, or safety of our users or others.
+
+5. Security
+We implement appropriate technical and organizational measures to safeguard your data against unauthorized access, disclosure, alteration, or destruction.
+
+6. Your Rights
+You have the right to:
+
+Revoke the App’s access to your Google account at any time via your Google security settings:
+https://myaccount.google.com/permissions
+
+Request deletion of any temporarily stored data.
+
+Contact us directly for any privacy-related concerns.
+
+7. Compliance with Google API Services User Data Policy
+Our App complies with the Google API Services User Data Policy, including the “Limited Use” requirements.
+
+Learn more:
+https://developers.google.com/terms/api-services-user-data-policy
+
+# Contact Us
+If you have any questions about this Privacy Policy, feel free to reach out to us at:
+
+Email: info@linegon.com
+Website: https://www.terabrain.ai
