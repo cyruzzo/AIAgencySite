@@ -1,4 +1,4 @@
-import { getPSeoArticle } from "@/utils/pSeo";
+import { getPSeoArticle, getAllPSeoArticles } from "@/utils/pSeo";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLongLeftIcon } from "@heroicons/react/24/solid";
@@ -8,6 +8,13 @@ interface BlogPageProps {
   params: {
     slug: string;
   };
+}
+
+export async function generateStaticParams() {
+  const articles = getAllPSeoArticles();
+  return articles.map((article) => ({
+    slug: article.slug,
+  }));
 }
 
 export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
