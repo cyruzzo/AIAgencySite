@@ -8,7 +8,7 @@ export default () => {
       <div className="relative z-10 max-w-2xl mx-auto space-y-4 text-center" >
         <h1 className="text-5xl heading my-7 py-7" style={{pointerEvents: 'none'}}>
           <b className="bg-orange-500 heading">AI Agents </b>
-          to Empower Your Business
+          per potenziare il tuo Business
         </h1>
         <p className="text-white py-7 my-7 opacity-50" style={{pointerEvents: 'none'}}>Be more productive with our AI-powered automation platform. Automate your flows and processes with ease. Integrations across CRMs, Email, Calendar, File Sharing Platforms, and More.</p>
         <div className="flex flex-wrap items-center justify-center gap-3">

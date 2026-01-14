@@ -1,0 +1,19 @@
+# TeraBrain - Agents Force
+
+## Descrizione
+TeraBrain è una piattaforma di automazione che permette alle aziende di creare "Agenti IA" personalizzati. Questi agenti lavorano a fianco dei dipendenti integrandosi nei flussi di lavoro esistenti, gestendo comunicazioni e operazioni su CRM e suite per ufficio.
+
+## Funzionalità Principali
+- **Integrazione Comunicazioni:** Gli agenti possono inviare/ricevere email e interagire via Telegram (inclusi messaggi vocali).
+- **Integrazione CRM:** Supporto nativo per SuiteCRM (lettura/scrittura, preventivi), con VTiger e DayLite in arrivo.
+- **Integrazione Office:** Connessione a Office 365 (Calendario, OneDrive, SharePoint) e Google (Drive, Calendar).
+- **Automazione:** Esecuzione di task, gestione file e pianificazione riunioni.
+
+## Prezzi
+- **Basic:** €25/mese (Piccoli team).
+- **Preview (Early Access):** €89/mese a vita (invece di €149).
+- **Enterprise:** €419/mese (Grandi organizzazioni).
+
+## Link Utili
+- Demo: Richiesta demo disponibile.
+- Contatto: info@linegon.com

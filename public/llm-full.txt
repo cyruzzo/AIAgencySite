@@ -1,0 +1,63 @@
+# TeraBrain - Documentazione Completa del Progetto
+
+## 1. Panoramica del Progetto
+TeraBrain (sviluppato da Linegon) è una piattaforma "Agents Force" che distribuisce intelligenza artificiale nei processi aziendali. L'obiettivo è fornire assistenti IA che non siano solo chatbot, ma agenti operativi capaci di leggere, scrivere ed eseguire azioni su software di terze parti.
+
+## 2. Stack Tecnologico (Dedotto)
+- **Frontend:** Next.js, React.
+- **Styling:** Tailwind CSS.
+- **UI Components:** Tabler Icons, Spline (per elementi 3D interattivi).
+- **Analytics:** Google Analytics 4 (GA4).
+
+## 3. Contenuti della Landing Page
+
+### Hero & Introduzione
+- **Slogan:** "L'IA al fianco dei tuoi dipendenti".
+- **Concept:** TeraBrain permette di costruire agenti IA basati su bisogni e competenze specifiche per automatizzare flussi di lavoro.
+
+### Integrazioni (Agents Force)
+Il sistema si divide in tre categorie principali di integrazione:
+
+1. **Comunicazione:**
+   - **Telegram:** Comunicazione istantanea, ricezione messaggi vocali, esecuzione comandi a mani libere.
+   - **Email:** Monitoraggio inbox, invio email a terzi, aggiornamento CRM basato sulle risposte.
+
+2. **CRM (Customer Relationship Management):**
+   - **SuiteCRM:** Completamente integrato. Gli agenti possono aggiungere/leggere info, creare preventivi, allegare file e attivarsi tramite workflow standard.
+   - **VTigerCRM:** In arrivo.
+   - **DayLite CRM:** In arrivo.
+
+3. **App e Office Suite:**
+   - **Office 365:** Accesso al calendario per riunioni, archiviazione/accesso file su OneDrive/SharePoint.
+   - **Google:** Accesso a Calendar e Google Drive (in arrivo) per organizzazione documenti e collaborazione.
+
+### Caratteristiche Chiave (Features)
+- **Perfettamente integrato:** Agenti costruiti su bisogni reali.
+- **Completamente versatile:** Responsive e operativo in ogni situazione.
+- **Personalizzabile:** Agenti adattabili alle esigenze specifiche dell'azienda.
+
+## 4. Struttura dei Prezzi (Pricing)
+
+### Piano Base
+- **Target:** Piccoli team e progetti individuali.
+- **Costo:** € 25 / mese.
+- **Include:** Personalizzazione agente IA, integrazione email base, O365, Telegram.
+
+### Piano Anteprima (Most Popular)
+- **Target:** Early Adopters (Prezzo a vita bloccato).
+- **Costo:** € 89 / mese (Scontato da € 149).
+- **Include:** 10 Milioni di crediti, integrazione email avanzata, operazioni sui file, integrazioni CRM.
+
+### Piano Enterprise
+- **Target:** Grandi organizzazioni.
+- **Costo:** € 419 / mese.
+- **Include:** 100 Milioni di crediti, integrazione email completa, SuiteCRM, supporto prioritario.
+
+## 5. Call to Action (CTA)
+- Possibilità di richiedere una prova di 30 giorni (via email).
+- Possibilità di prenotare una demo tramite calendario Outlook.
+- "Prezzi Limited Early Access" disponibili per i primi utenti.
+
+## 6. Informazioni di Contatto
+- Email: info@linegon.com
+- Prenotazione Demo: Link al calendario LinegonSRL.

@@ -28,12 +28,12 @@ export default async () => {
   const integrations = [
     {
       title: 'Telegram',
-      desc: 'Your agent can be reached via Telegram and can receive voice messages. This enables instant communication and hands-free command execution.',
+      desc: 'Il tuo agente può essere contattato tramite Telegram e può ricevere messaggi vocali. Questo consente una comunicazione istantanea e l\'esecuzione di comandi a mani libere.',
       icon: <IconBrandTelegram color="#fff" size={42} />,
     },
     {
       title: 'Email',
-      desc: 'Ask an agent to send emails to third parties and perform operations based on the response. Agents can monitor inboxes and take actions like updating CRM records or forwarding important messages.',
+      desc: 'Chiedi a un agente di inviare email a terzi ed eseguire operazioni in base alla risposta. Gli agenti possono monitorare la posta in arrivo e intraprendere azioni come l\'aggiornamento dei record CRM o l\'inoltro di messaggi importanti.',
       icon: <IconMailAi color="#fff" size={42} />,
     },
   ];
@@ -41,33 +41,33 @@ export default async () => {
   const crmIntegrations = [
     {
       title: 'SuiteCRM',
-      desc: 'Have your agents add and read information on the CRM for you, create quotes, attach files. You can also trigger the agents from the standard SuiteCRM Workflow.',
+      desc: 'Fai aggiungere e leggere informazioni sul CRM dai tuoi agenti, creare preventivi, allegare file. Puoi anche attivare gli agenti direttamente dal flusso di lavoro standard di SuiteCRM.',
       icon: <IconBrandOffice color="#fff" size={42} />,
-      cta: 'Integrated',
+      cta: 'Integrato',
     },
     {
       title: 'VTigerCRM',
-      desc: 'Coming soon',
+      desc: 'In arrivo',
       icon: <IconBrandTelegram color="#fff" size={42} />,
-      cta: 'Coming soon',
+      cta: 'In arrivo',
     },
     {
       title: 'DayLite CRM',
-      desc: 'Coming soon',
+      desc: 'In arrivo',
       icon: <IconUsersGroup color="#fff" size={42} />,
-      cta: 'Coming soon',
+      cta: 'In arrivo',
     },
   ];
 
   const appIntegrations = [
     {
       title: 'Office 365',
-      desc: 'The agent can access your calendar to schedule meetings and access and archive your OneDrive/SharePoint files. Automate workflow tasks, reminders, and file sharing within your Microsoft ecosystem.',
+      desc: 'L\'agente può accedere al tuo calendario per programmare riunioni e accedere/archiviare i tuoi file OneDrive/SharePoint. Automatizza le attività del flusso di lavoro, i promemoria e la condivisione di file all\'interno del tuo ecosistema Microsoft.',
       icon: <IconBrandOffice color="#fff" size={42} />,
     },
     {
       title: 'Google',
-      desc: 'Access your calendar and Google Drive files (Coming Soon). AI agents will soon assist with document organization, scheduling, and collaboration',
+      desc: 'Accedi al tuo calendario e ai file di Google Drive (In arrivo). Gli agenti IA ti assisteranno presto nell\'organizzazione dei documenti, nella pianificazione e nella collaborazione.',
       icon: <IconBrandGoogle color="#fff" size={42} />,
     },
   ];
@@ -101,8 +101,8 @@ export default async () => {
       </video>
       <div className='relative flex flex-col items-center justify-center'>
       <div className="max-w-xl mx-auto space-y-4 text-center mt-10 pt-10" style={{height: '30vh'}} id="about">
-        <h2 className="text-4xl heading">Use your favorite integrations</h2>
-        <p className="text-zinc-400">Our Agents Force is built to fulfill your needs and can be integrated with your favorite apps, creating a seamless experience.</p>
+        <h2 className="text-4xl heading">Usa le tue integrazioni preferite</h2>
+        <p className="text-zinc-400">La nostra Agents Force è costruita per soddisfare le tue esigenze e può essere integrata con le tue app preferite, creando un'esperienza fluida.</p>
       </div>
       <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.75/build/spline-viewer.js"></script>
       <spline-viewer url="https://prod.spline.design/zY6WC1fMdzg8IVNF/scene.splinecode" class='xl:block lg:hidden md:hidden md-hidden' style={{ 
@@ -123,14 +123,14 @@ export default async () => {
       <spline-viewer url="https://prod.spline.design/WgZXordciaDpmqxh/scene.splinecode"></spline-viewer>
       </div>
 
-      <FUIIntegrationsCard integrations={crmIntegrations} title="Agents that work with your systems" desc="Connect your CRM to your workflow. Get the best of CRM integrated with your workflow." />
-      <FUIIntegrationsCard integrations={integrations} title="Agents that can communicate" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
-      <FUIIntegrationsCard integrations={appIntegrations} title="Connect seamlessly to your systems" desc="Let your agents talk to you. Connect your workflow to your favorite communication tools." />
+      <FUIIntegrationsCard integrations={crmIntegrations} title="Agenti che lavorano con i tuoi sistemi" desc="Collega il tuo CRM al tuo flusso di lavoro. Ottieni il meglio dal CRM integrato nei tuoi processi." />
+      <FUIIntegrationsCard integrations={integrations} title="Agenti in grado di comunicare" desc="Lascia che i tuoi agenti parlino con te. Collega il tuo flusso di lavoro ai tuoi strumenti di comunicazione preferiti." />
+      <FUIIntegrationsCard integrations={appIntegrations} title="Connettiti perfettamente ai tuoi sistemi" desc="Lascia che i tuoi agenti parlino con te. Collega il tuo flusso di lavoro ai tuoi strumenti di comunicazione preferiti." />
 </div>
       <div className='relative flex items-center justify-center m-auto w-auto gap-10 my-6'>
         <div>
-          <h2 className="text-4xl heading">Supported Frameworks</h2>
-          <p className="text-zinc-400">Our Agents Army is built to fulfill your needs and can be integrated with your favorite apps,<br/>creating a seamless experience.</p>
+          <h2 className="text-4xl heading">Framework Supportati</h2>
+          <p className="text-zinc-400">La nostra Agents Army è costruita per soddisfare le tue esigenze e può essere integrata con le tue app preferite,<br/>creando un'esperienza fluida.</p>
         </div>
       <FUILogoGrid 
       className='w-1/3'
@@ -151,7 +151,7 @@ export default async () => {
       <div id="pricing">
         <FUIPricingSectionWithBadge />
       </div>
-      <FUITeamWithLargeAvatars />
+      {/*<FUITeamWithLargeAvatars />*/}
       <CTA />
     </div>
   );
