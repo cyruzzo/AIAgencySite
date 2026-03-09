@@ -23,10 +23,10 @@ export default async () => {
 
       <Features />
       
-      <div id="products">
+      {/* <div id="products">
 
       <TemplateCTA />
-      </div>
+      </div> */}
       <FUITeamWithLargeAvatars />
       <CTA />
     </>
